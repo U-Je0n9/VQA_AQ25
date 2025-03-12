@@ -1,0 +1,3978 @@
+prompt: 
+gpt: 
+final_prompt: 
+테스트 시작
+correct
+1th
+이미지 ID: 2386965
+엔티티 ID: 1280763
+입력 질문:  Is the blue vehicle to the right of a car?
+스위치: Yes, the blue vehicle is to the right of a car. 
+출력 답: no
+실제 답: no
+정답 질문: Is the car on the right side of the bus?
+
+점수 : 1
+
+correct
+2th
+이미지 ID: 2342458
+엔티티 ID: 3647571
+입력 질문:  Does the cupcake look uncooked?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is it the cupcake on the left side of the center?
+USER: New question: "Is the cupcake in the image located on the left side of the image, next to a bowl and a cake pan?" 
+ASSISTANT: no, the cupcake in the red box does not look uncooked. it appears to be in a batter form, ready to be baked.
+USER: New question: "Is the cupcake in the image located on the right side of the image, next to a blue tray and a cake pan?" 
+ASSISTANT: the cupcake in the red box looks uncooked. it appears to be in a batter form, ready to be baked.
+USER: New question: "Is the cupcake in the image located on the left side of the image, next to a bowl and a cake pan?" 
+ASSISTANT: the cupcake in the red box looks uncooked. it appears to be in a batter form, ready to be baked.
+
+점수 : 2
+
+wrong
+3th
+이미지 ID: 2384566
+엔티티 ID: 525933
+입력 질문:  Who wears a shirt?
+스위치: In the image, there are several people wearing shirts. However, without more specific information, it is not possible for me to determine which person you are referring to. If you have a specific person in mind, please provide more details or clarify your question. 
+출력 답: people
+실제 답: woman
+정답 질문: Is the shirt pink?
+
+점수 : 2
+
+wrong
+4th
+이미지 ID: 2405430
+엔티티 ID: 373304
+입력 질문:  What is the man holding?
+스위치: The man is holding a game controller. 
+출력 답: controller
+실제 답: remote control
+정답 질문: Is the man tall?
+
+점수 : 2
+
+correct
+5th
+이미지 ID: 2414981
+엔티티 ID: 148306
+입력 질문:  What is filled with lettuce?
+스위치: I'm not sure. 
+출력 답: bowl
+실제 답: bowl
+정답 질문: Is the lettuce at the bottom right of the other lettuce?
+USER: Is the lettuce in the bowl located closer to the banana or the edge of the bowl? 
+ASSISTANT: the lettuce in the red box is closer to the edge of the bowl.
+USER: Is the lettuce in the red box located closer to the banana or the edge of the bowl? 
+ASSISTANT: the lettuce in the red box is closer to the edge of the bowl.
+USER: Is the lettuce in the red box located closer to the banana or the edge of the bowl? 
+ASSISTANT: the lettuce in the red box is closer to the edge of the bowl.
+
+점수 : 3
+
+correct
+6th
+이미지 ID: 2379565
+엔티티 ID: 1356483
+입력 질문:  On which side of the photo is the glass jar?
+스위치: The glass jar is on the left side of the photo. 
+출력 답: left
+실제 답: left
+정답 질문: Is the jar to the left of the other jars?
+
+점수 : 4
+
+wrong
+7th
+이미지 ID: 2342601
+엔티티 ID: 2398213
+입력 질문:  What is the food to the left of the cherry that is to the left of the chair?
+스위치: I'm not sure. 
+출력 답: candy
+실제 답: chocolate
+정답 질문: Is the cherry on the right of the other cherry?
+USER: Is the cherry in question located on the left side of the cake, closer to the woman than the other cherry? 
+ASSISTANT: Yes
+
+점수 : 4
+
+wrong
+8th
+이미지 ID: 2412169
+엔티티 ID: 201447
+입력 질문:  Is the bus to the right or to the left of the fence?
+스위치: Right 
+출력 답: right
+실제 답: left
+정답 질문: Is the fence to the right of bus?
+
+점수 : 4
+
+correct
+9th
+이미지 ID: 2359399
+엔티티 ID: 2420471
+입력 질문:  On which side of the picture is the box , the right or the left?
+스위치: The box is on the right side of the picture. 
+출력 답: right
+실제 답: right
+정답 질문: Is the box on the right of the other box?
+
+점수 : 5
+
+wrong
+10th
+이미지 ID: 2375767
+엔티티 ID: 3689866
+입력 질문:  Does the plate look white and round?
+스위치: Yes, the plate looks white and round. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the plate of tomatoes?
+
+점수 : 5
+
+correct
+11th
+이미지 ID: 2393388
+엔티티 ID: 1220434
+입력 질문:  What is the person near the man doing?
+스위치: The person near the man is shaking hands with him. 
+출력 답: shaking hands
+실제 답: shaking hands
+정답 질문: Is the man wearing a white shirt?
+
+점수 : 6
+
+wrong
+12th
+이미지 ID: 2349461
+엔티티 ID: 1852398
+입력 질문:  What is in front of the rope that is to the left of the woman?
+스위치: The kite in front of the rope. 
+출력 답: kite
+실제 답: ground
+정답 질문: Is this a woman wearing a dress?
+
+점수 : 6
+
+correct
+13th
+이미지 ID: 2402291
+엔티티 ID: 1137931
+입력 질문:  Who do you think is wearing a shoe?
+스위치: The girl in the image is wearing a shoe. 
+출력 답: girl
+실제 답: girl
+정답 질문: Is the shoe on the right of the other shoe?
+
+점수 : 7
+
+correct
+14th
+이미지 ID: 2318995
+엔티티 ID: 1005526
+입력 질문:  Is the large lamp to the right or to the left of the pillows?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Are the pillows to the right of a couch?
+
+점수 : 8
+
+correct
+15th
+이미지 ID: 2381513
+엔티티 ID: 1660367
+입력 질문:  What is the vegetable that is to the left of the cauliflower that looks yellow and white called?
+스위치: I'm not sure. 
+출력 답: cabbage
+실제 답: cabbage
+정답 질문: Is that the cauliflower in the middle of the bottom row?
+USER: Is the cauliflower in the image located to the left of the cauliflower that looks yellow and white? 
+ASSISTANT: no, the cauliflower in the red box is not located to the left of the cauliflower that looks yellow and white.
+USER: Is the cauliflower in the image located to the right of the cauliflower that looks yellow and white? 
+ASSISTANT: Yes
+
+점수 : 9
+
+correct
+16th
+이미지 ID: 1159440
+엔티티 ID: 1593533
+입력 질문:  Is the truck to the right or to the left of the man?
+스위치: The truck is to the left of the man. 
+출력 답: left
+실제 답: left
+정답 질문: Is the truck gray?
+
+점수 : 10
+
+correct
+17th
+이미지 ID: 2365639
+엔티티 ID: 2315214
+입력 질문:  Does the tree look leafy?
+스위치: Yes, the tree appears to be leafy in the image. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the tree right behind the yellow sign?
+
+점수 : 11
+
+wrong
+18th
+이미지 ID: 2396751
+엔티티 ID: 1195441
+입력 질문:  What color does the shirt the man wears have?
+스위치: The man is wearing a blue shirt. 
+출력 답: blue
+실제 답: white
+정답 질문: Is the shirt black and long sleeved?
+
+점수 : 11
+
+correct
+19th
+이미지 ID: 2330752
+엔티티 ID: 4662246
+입력 질문:  Is the chair in the top or in the bottom of the image?
+스위치: The chair is in the top of the image. 
+출력 답: top
+실제 답: top
+정답 질문: Is the chair on the right of the other chair?
+
+점수 : 12
+
+wrong
+20th
+이미지 ID: 2378231
+엔티티 ID: 1787592
+입력 질문:  What is the man to the left of the spectator riding?
+스위치: The man to the left of the spectator is riding a motorcycle. 
+출력 답: motorcycle
+실제 답: bike
+정답 질문: Is the spectator wearing dark-colored short-sleeved shirts and light-colored short shorts?
+
+점수 : 12
+
+wrong
+21th
+이미지 ID: 2326088
+엔티티 ID: 3990964
+입력 질문:  Which color is the coat?
+스위치: The coat is red. 
+출력 답: red
+실제 답: orange
+정답 질문: Is the coat orange?
+
+점수 : 12
+
+correct
+22th
+이미지 ID: 2359034
+엔티티 ID: 2050437
+입력 질문:  What is the drink that is to the right of the man?
+스위치: I'm not sure. 
+출력 답: beer
+실제 답: beer
+정답 질문: Is this a man holding a cup?
+USER: Is the man holding a red cup in his hand? 
+ASSISTANT: Yes
+
+점수 : 13
+
+correct
+23th
+이미지 ID: 2342411
+엔티티 ID: 2620881
+입력 질문:  Is the beer to the left or to the right of the woman?
+스위치: The beer is to the left of the woman. 
+출력 답: left
+실제 답: left
+정답 질문: Is the woman sitting in the red dress?
+
+점수 : 14
+
+correct
+24th
+이미지 ID: 2353948
+엔티티 ID: 2283045
+입력 질문:  Is the child to the right of the person wearing a coat?
+스위치: No, the child is not wearing a coat. The child is wearing a jersey. 
+출력 답: no
+실제 답: no
+정답 질문: Is the person wearing a blue top and black pants?
+
+점수 : 15
+
+correct
+25th
+이미지 ID: 2389713
+엔티티 ID: 503003
+입력 질문:  Are the trees behind the bus leafy or bare?
+스위치: Leafy 
+출력 답: leafy
+실제 답: leafy
+정답 질문: Is it a bus with a license plate visible?
+
+점수 : 16
+
+wrong
+26th
+이미지 ID: 2409743
+엔티티 ID: 234679
+입력 질문:  What does the man wear?
+스위치: The man is wearing a baseball uniform, which typically includes a jersey, pants, a cap, and possibly cleats. 
+출력 답: helmet
+실제 답: glove
+정답 질문: Is the man wearing gloves and to the right of another person wearing gloves?
+
+점수 : 16
+
+correct
+27th
+이미지 ID: 2411846
+엔티티 ID: 208572
+입력 질문:  How big is the kite?
+스위치: I'm not sure. 
+출력 답: small
+실제 답: small
+정답 질문: Is the kite pink?
+USER: Is the kite in the boy's hand the one being flown in the background? 
+ASSISTANT: the kite in the red box is the one being flown in the background.
+USER: Is the kite in the boy's hand the one being flown in the background? 
+ASSISTANT: the kite in the red box is the one being flown in the background.
+USER: Is the kite in the boy's hand the one being flown in the background? 
+ASSISTANT: the kite in the red box is the one being flown in the background.
+
+점수 : 17
+
+correct
+28th
+이미지 ID: 1283
+엔티티 ID: 4308728
+입력 질문:  Is the wall behind a man?
+스위치: Yes, the wall is behind a man. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the man to the left of a finger?
+
+점수 : 18
+
+correct
+29th
+이미지 ID: 2390957
+엔티티 ID: 1245504
+입력 질문:  On which side of the photo is the zebra?
+스위치: The zebra is on the right side of the photo. 
+출력 답: right
+실제 답: right
+정답 질문: Is that the zebra on the right?
+
+점수 : 19
+
+correct
+30th
+이미지 ID: 2349443
+엔티티 ID: 874760
+입력 질문:  What hangs on the wall?
+스위치: I'm not sure. 
+출력 답: picture
+실제 답: picture
+정답 질문: Is the wall on the left of the other wall?
+USER: Is the wall in the room where the bed is located? 
+ASSISTANT: Yes
+
+점수 : 20
+
+correct
+31th
+이미지 ID: 2355036
+엔티티 ID: 833407
+입력 질문:  Is the wine bottle on the table closed or open?
+스위치: The wine bottle on the table is open. 
+출력 답: open
+실제 답: open
+정답 질문: Is the wine bottle to the right of a shirt?
+
+점수 : 21
+
+correct
+32th
+이미지 ID: 2326058
+엔티티 ID: 3991523
+입력 질문:  How large is the cone?
+스위치: I'm not sure. 
+출력 답: small
+실제 답: small
+정답 질문: Is it the orange cone on the far right?
+USER: Is the cone in the image the one with a black and white sticker on it? 
+ASSISTANT: Yes
+
+점수 : 22
+
+correct
+33th
+이미지 ID: 4656
+엔티티 ID: 4560076
+입력 질문:  Is the pillow on the right?
+스위치: Yes, the pillow is on the right side of the couch. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the pillow yellow?
+
+점수 : 23
+
+wrong
+34th
+이미지 ID: 3108
+엔티티 ID: 4327306
+입력 질문:  The man is wearing what?
+스위치: The man is wearing a red cap. 
+출력 답: cap
+실제 답: jeans
+정답 질문: Is the man wearing jeans?
+
+점수 : 23
+
+correct
+35th
+이미지 ID: 2343879
+엔티티 ID: 919118
+입력 질문:  Does the horse 's mane look red?
+스위치: I'm not sure. 
+출력 답: no
+실제 답: no
+정답 질문: Is that the black horse on the left of the black horse?
+USER: Is the horse with the red mane standing to the left of the other horse in the image? 
+ASSISTANT: no, the horse's mane in the red box does not look red.
+USER: Is the horse with the white mane standing to the right of the other horse in the image? 
+ASSISTANT: no, the horse's mane in the red box does not look red.
+USER: Is the horse with the white mane standing in front of the other horse in the image? 
+ASSISTANT: no, the horse's mane in the red box does not look red.
+
+점수 : 24
+
+correct
+36th
+이미지 ID: 2319329
+엔티티 ID: 2765409
+입력 질문:  Is the chair to the left of the man that is to the left of the cup?
+스위치: Yes, the chair is to the left of the man that is to the left of the cup. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the man standing with the remote?
+
+점수 : 25
+
+correct
+37th
+이미지 ID: 2379649
+엔티티 ID: 1355634
+입력 질문:  What color is the bird on the vase?
+스위치: The bird on the vase is blue. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is the vase to the right of the other vase?
+
+점수 : 26
+
+wrong
+38th
+이미지 ID: 2412565
+엔티티 ID: 3804143
+입력 질문:  What is the device to the left of the boy that is wearing a shirt?
+스위치: I'm not sure. 
+출력 답: television
+실제 답: speaker
+정답 질문: Is the shirt striped?
+USER: Is the shirt in the image striped? 
+ASSISTANT: Yes
+
+점수 : 26
+
+correct
+39th
+이미지 ID: 2354850
+엔티티 ID: 1822692
+입력 질문:  What is the girl wearing?
+스위치: The girl is wearing a black dress. 
+출력 답: dress
+실제 답: dress
+정답 질문: Is the girl wearing a shirt?
+
+점수 : 27
+
+correct
+40th
+이미지 ID: 2374904
+엔티티 ID: 2403668
+입력 질문:  Is the device to the left of the bottle red or silver?
+스위치: Silver 
+출력 답: silver
+실제 답: silver
+정답 질문: Is the bottle on the left of the other bottle?
+
+점수 : 28
+
+correct
+41th
+이미지 ID: 2413770
+엔티티 ID: 166544
+입력 질문:  What are the vehicles to the right of the boy?
+스위치: I'm not sure. 
+출력 답: cars
+실제 답: cars
+정답 질문: Is this a boy whose upper body is only visible?
+USER: Is the boy in the image wearing a black shirt and riding a skateboard? 
+ASSISTANT: Yes
+
+점수 : 29
+
+correct
+42th
+이미지 ID: 2395442
+엔티티 ID: 454496
+입력 질문:  Does the man 's hair look short?
+스위치: Yes, the man's hair appears to be short. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the hair to the left of a logo?
+
+점수 : 30
+
+correct
+43th
+이미지 ID: 2343538
+엔티티 ID: 922589
+입력 질문:  What vehicle do you think is on the street the tree is next to?
+스위치: I'm not sure. 
+출력 답: car
+실제 답: car
+정답 질문: Is the tree in front of a building?
+USER: Is the tree with the horse statue located on the same street as the red car? 
+ASSISTANT: Yes
+
+점수 : 31
+
+wrong
+44th
+이미지 ID: 2407409
+엔티티 ID: 280052
+입력 질문:  Are the cooking utensils to the left of the almond large and silver?
+스위치: Yes, the cooking utensils to the left of the almond are large and silver. 
+출력 답: yes
+실제 답: no
+정답 질문: Is there an almond between the tongs?
+
+점수 : 31
+
+correct
+45th
+이미지 ID: 2375167
+엔티티 ID: 723299
+입력 질문:  What device is the girl to the left of the painting holding , a phone or a Wii controller?
+스위치: The girl to the left of the painting is holding a Wii controller. 
+출력 답: wii controller
+실제 답: wii controller
+정답 질문: Is the girl tall?
+
+점수 : 32
+
+correct
+46th
+이미지 ID: 2317019
+엔티티 ID: 3326228
+입력 질문:  Who is holding the toothbrush?
+스위치: The girl in the white shirt is holding the toothbrush. 
+출력 답: girl
+실제 답: girl
+정답 질문: Is the toothbrush purple?
+
+점수 : 33
+
+correct
+47th
+이미지 ID: 2348836
+엔티티 ID: 2251881
+입력 질문:  What is the color of the boy 's hair?
+스위치: The boy's hair is brown. 
+출력 답: brown
+실제 답: brown
+정답 질문: Is this a boy wearing a bright t-shirt?
+
+점수 : 34
+
+correct
+48th
+이미지 ID: 2355952
+엔티티 ID: 825054
+입력 질문:  Does the cell phone that is not thin look blue or red?
+스위치: Blue 
+출력 답: blue
+실제 답: blue
+정답 질문: Is the cell phone on the right side of the other cell phone?
+
+점수 : 35
+
+wrong
+49th
+이미지 ID: 2340851
+엔티티 ID: 3142038
+입력 질문:  Is the shirt?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: short sleeved
+정답 질문: Is the shirt pink?
+USER: Is the shirt the person is wearing while walking across the street? 
+ASSISTANT: Yes
+
+점수 : 35
+
+correct
+50th
+이미지 ID: 2321127
+엔티티 ID: 4212118
+입력 질문:  Is the bench in the bottom part or in the top of the picture?
+스위치: The bench is in the top part of the picture. 
+출력 답: top
+실제 답: top
+정답 질문: Is the bench on the right of the other bench?
+
+점수 : 36
+
+correct
+51th
+이미지 ID: 2364584
+엔티티 ID: 2099944
+입력 질문:  What is covered in trees?
+스위치: The image shows a group of people standing next to a blue bus. The bus has a sign that reads "SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI THFR SCHI
+출력 답: hill
+실제 답: hill
+정답 질문: Is the tree on the right side of the other tree?
+
+점수 : 37
+
+correct
+52th
+이미지 ID: 2350707
+엔티티 ID: 2559961
+입력 질문:  Which part is the car in?
+스위치: The car is in the left side of the image, parked on the side of the street. 
+출력 답: left
+실제 답: left
+정답 질문: Is the car black?
+
+점수 : 38
+
+correct
+53th
+이미지 ID: 1277
+엔티티 ID: 1031898
+입력 질문:  What is the item of furniture to the left of the planter?
+스위치: I'm not sure. 
+출력 답: chair
+실제 답: chair
+정답 질문: Is the planter on the right of the other planter?
+USER: Is the planter in the image located to the left of the sink? 
+ASSISTANT: the item of furniture to the left of the planter is a chair.
+USER: Is the planter in the image located to the left of the sink? 
+ASSISTANT: the item of furniture to the left of the planter is a chair.
+USER: Is the planter in the image located to the left of the sink? 
+ASSISTANT: the item of furniture to the left of the planter is a chair.
+
+점수 : 39
+
+correct
+54th
+이미지 ID: 2346021
+엔티티 ID: 1987500
+입력 질문:  Is the man wearing jeans?
+스위치: I'm not sure. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man wearing a headband?
+USER: Is the man wearing a blue shirt and white shorts while playing tennis? 
+ASSISTANT: no, the man is wearing a blue shirt and white shorts while playing tennis.
+USER: Is the man wearing a blue shirt and white shorts while playing tennis and standing behind the other man on the court? 
+ASSISTANT: no, the man is wearing a blue shirt and white shorts.
+USER: Is the man wearing a blue shirt and white shorts while playing tennis and standing behind the other man on the court who is wearing a blue shirt and white shorts? 
+ASSISTANT: no, the man is wearing a blue shirt and white shorts.
+
+점수 : 40
+
+correct
+55th
+이미지 ID: 2406284
+엔티티 ID: 1102714
+입력 질문:  What device is to the left of the glasses the lady is wearing?
+스위치: I'm not sure. 
+출력 답: computer
+실제 답: computer
+정답 질문: Is the lady wearing glasses?
+USER: Is the lady wearing glasses standing near a bookshelf? 
+ASSISTANT: the lady in the red box is not wearing glasses.
+USER: Is the lady wearing glasses standing near a bookshelf? 
+ASSISTANT: the lady in the red box is not wearing glasses.
+USER: Is the lady wearing glasses standing near a television? 
+ASSISTANT: the lady in the red box is not wearing glasses.
+
+점수 : 41
+
+correct
+56th
+이미지 ID: 2363954
+엔티티 ID: 3742420
+입력 질문:  Is the couch to the left of the man that is on the right part of the photo?
+스위치: Yes, the couch is to the left of the man on the right part of the photo. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the man on the right of the other men?
+
+점수 : 42
+
+correct
+57th
+이미지 ID: 2354465
+엔티티 ID: 1951359
+입력 질문:  What type of animal do you think is to the left of the man?
+스위치: I'm not sure. 
+출력 답: horse
+실제 답: horse
+정답 질문: Is this the man sitting wearing blue pants?
+USER: Is the man riding the horse to the left of the other man in the image? 
+ASSISTANT: Yes
+
+점수 : 43
+
+wrong
+58th
+이미지 ID: 2343414
+엔티티 ID: 923896
+입력 질문:  What is the color of the motorcycle?
+스위치: The color of the motorcycle is black. 
+출력 답: black
+실제 답: blue
+정답 질문: Is the motorcycle on the left of the other motorcycle?
+
+점수 : 43
+
+correct
+59th
+이미지 ID: 2403142
+엔티티 ID: 383300
+입력 질문:  What is the color of the shirt?
+스위치: The color of the shirt is yellow. 
+출력 답: pink
+실제 답: pink
+정답 질문: Is the shirt pink?
+
+점수 : 44
+
+correct
+60th
+이미지 ID: 2328213
+엔티티 ID: 3240505
+입력 질문:  Does the helmet look red?
+스위치: Yes, the helmet looks red. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the helmet red?
+
+점수 : 45
+
+correct
+61th
+이미지 ID: 2318858
+엔티티 ID: 1006563
+입력 질문:  Is the cow to the left or to the right of the fence on the right?
+스위치: The cow is to the left of the fence on the right. 
+출력 답: left
+실제 답: left
+정답 질문: Is the cow on a road?
+
+점수 : 46
+
+correct
+62th
+이미지 ID: 2369742
+엔티티 ID: 3995727
+입력 질문:  Are the plants behind an animal?
+스위치: Yes, the plants are behind the zebra. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the animal on the right of another animal?
+
+점수 : 47
+
+correct
+63th
+이미지 ID: 2389726
+엔티티 ID: 4485077
+입력 질문:  What is located on top of the building behind the pillars?
+스위치: I'm not sure. 
+출력 답: dome
+실제 답: dome
+정답 질문: Is it a building with a golden dome?
+USER: Is the building with the statue of a person on a horse located on top of the building behind the pillars? 
+ASSISTANT: no, the building with the statue of a person on a horse is not located on top of the building behind the pillars. the building in the red box has a dome on top.
+USER: Is the building with the dome on top located behind the pillars? 
+ASSISTANT: the building in the red box has a dome on top.
+USER: Is the building with the dome on top located behind the pillars? 
+ASSISTANT: the building in the red box has a dome on top.
+
+점수 : 48
+
+correct
+64th
+이미지 ID: 2411213
+엔티티 ID: 315038
+입력 질문:  Is the couch in front of the table vintage and blue?
+스위치: Yes, the couch in front of the table appears to be vintage and blue. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the table brown?
+
+점수 : 49
+
+correct
+65th
+이미지 ID: 2396553
+엔티티 ID: 4350008
+입력 질문:  What is the woman leaving?
+스위치: I'm not sure. 
+출력 답: store
+실제 답: store
+정답 질문: Is the woman between the umbrellas?
+USER: Is the woman in the red pants holding an umbrella and standing next to a man in a trench coat? 
+ASSISTANT: the woman in the red box is leaving a store.
+USER: Is the woman in the red pants holding an umbrella and standing next to a man in a trench coat? 
+ASSISTANT: the woman in the red box is leaving a store.
+USER: Is the woman in the red pants holding an umbrella and standing next to a man in a trench coat? 
+ASSISTANT: the woman in the red box is leaving a store.
+
+점수 : 50
+
+wrong
+66th
+이미지 ID: 2389648
+엔티티 ID: 4487826
+입력 질문:  Is the baby to the right of a horse?
+스위치: Yes, the baby is to the right of a horse. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the horse on the right of the other horses?
+
+점수 : 50
+
+wrong
+67th
+이미지 ID: 2357066
+엔티티 ID: 815340
+입력 질문:  Is the apple next to the apple?
+스위치: Yes, the apple is next to the apple on the plate. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the apple in the middle of the other apples?
+
+점수 : 50
+
+correct
+68th
+이미지 ID: 2346647
+엔티티 ID: 897520
+입력 질문:  What does the man hold onto?
+스위치: The man is holding onto a frisbee. 
+출력 답: frisbee
+실제 답: frisbee
+정답 질문: Is the man holding onto a frisbee?
+
+점수 : 51
+
+correct
+69th
+이미지 ID: 2367510
+엔티티 ID: 1875296
+입력 질문:  Is the cellphone to the left or to the right of the girl?
+스위치: The cellphone is to the right of the girl. 
+출력 답: right
+실제 답: right
+정답 질문: Is the girl on the right of the other girl?
+
+점수 : 52
+
+wrong
+70th
+이미지 ID: 2403666
+엔티티 ID: 350941
+입력 질문:  Was metal used to make the container below the table?
+스위치: I'm not sure. 
+출력 답: no
+실제 답: yes
+정답 질문: Is the table in front of another table?
+USER: Was the table with the fresh produce, such as bananas and limes, made of wood? 
+ASSISTANT: Yes
+
+점수 : 52
+
+wrong
+71th
+이미지 ID: 2358310
+엔티티 ID: 804068
+입력 질문:  What is the drink that is inside the glass called?
+스위치: I'm not sure. 
+출력 답: wine
+실제 답: soda
+정답 질문: Is the glass black?
+USER: Is the glass containing a drink located closer to the pizza on the table? 
+ASSISTANT: the drink inside the glass is red wine.
+USER: Is the glass containing red wine located closer to the pizza on the table? 
+ASSISTANT: the drink inside the glass is red wine.
+USER: Is the glass containing red wine located closer to the pizza on the table? 
+ASSISTANT: Yes
+
+점수 : 52
+
+correct
+72th
+이미지 ID: 2359244
+엔티티 ID: 3766511
+입력 질문:  On which side is the shelf?
+스위치: The shelf is on the right side of the image. 
+출력 답: right
+실제 답: right
+정답 질문: Is the shelf to the right of the other shelves and is there a black book on that shelf?
+
+점수 : 53
+
+correct
+73th
+이미지 ID: 3708
+엔티티 ID: 3648109
+입력 질문:  On which side of the picture is the person?
+스위치: The person is on the right side of the picture. 
+출력 답: right
+실제 답: right
+정답 질문: Is the person on the right of the backpack?
+
+점수 : 54
+
+wrong
+74th
+이미지 ID: 2407447
+엔티티 ID: 366931
+입력 질문:  What is the giraffe looking at?
+스위치: I'm not sure. 
+출력 답: camera
+실제 답: forest
+정답 질문: Is the giraffe in the middle of the other giraffes?
+USER: Is the giraffe with its neck extended towards the camera? 
+ASSISTANT: the giraffe in the red box is not extending its neck towards the camera.
+USER: Is the giraffe with its neck extended towards the other giraffe in the image? 
+ASSISTANT: the giraffe in the red box is not extending its neck towards the other giraffe.
+USER: Is the giraffe with its neck extended towards the camera? 
+ASSISTANT: the giraffe in the red box is looking towards the camera.
+
+점수 : 54
+
+correct
+75th
+이미지 ID: 2360412
+엔티티 ID: 788156
+입력 질문:  Is the umbrella in the top or in the bottom part of the picture?
+스위치: The umbrella is in the bottom part of the picture. 
+출력 답: bottom
+실제 답: bottom
+정답 질문: Is the umbrella white?
+
+점수 : 55
+
+correct
+76th
+이미지 ID: 2409903
+엔티티 ID: 230720
+입력 질문:  Which color does the zebra have?
+스위치: The zebra has black and white stripes. 
+출력 답: black and white
+실제 답: white
+정답 질문: Is the zebra on the right of the other zebra?
+
+점수 : 56
+
+wrong
+77th
+이미지 ID: 713279
+엔티티 ID: 4246493
+입력 질문:  What is the device to the left of the speaker that is on the right side?
+스위치: The device to the left of the speaker on the right side is a laptop. 
+출력 답: laptop
+실제 답: computer monitor
+정답 질문: Is the speaker to the right of a computer monitor?
+
+점수 : 56
+
+correct
+78th
+이미지 ID: 2387979
+엔티티 ID: 676160
+입력 질문:  What color is the zebra?
+스위치: The zebra in the image is black and white. 
+출력 답: black and white
+실제 답: white
+정답 질문: Is the zebra second from the right?
+
+점수 : 57
+
+correct
+79th
+이미지 ID: 2415433
+엔티티 ID: 3124772
+입력 질문:  Is the boy to the left of a man?
+스위치: Yes, the boy is to the left of a man. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man wearing a khaki shirt?
+
+점수 : 58
+
+correct
+80th
+이미지 ID: 2349770
+엔티티 ID: 872355
+입력 질문:  Does the cheese pizza look incomplete?
+스위치: Yes, the cheese pizza appears to be incomplete, with a slice missing from it. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the pizza on the right of the other pizza?
+
+점수 : 59
+
+correct
+81th
+이미지 ID: 2358801
+엔티티 ID: 1988726
+입력 질문:  What is the man wearing?
+스위치: The man is wearing glasses, a plaid shirt, and a black belt. 
+출력 답: glasses
+실제 답: glasses
+정답 질문: Is the man wearing glasses?
+
+점수 : 60
+
+correct
+82th
+이미지 ID: 2363077
+엔티티 ID: 2255990
+입력 질문:  Is the nightstand to the right or to the left of the pillow?
+스위치: Right 
+출력 답: right
+실제 답: right
+정답 질문: Is the pillow on the right of the other pillow?
+
+점수 : 61
+
+correct
+83th
+이미지 ID: 2400527
+엔티티 ID: 408153
+입력 질문:  Does the giraffe that is to the right of the giraffe look adult?
+스위치: Yes, the giraffe to the right of the giraffe appears to be an adult. 
+출력 답: no
+실제 답: no
+정답 질문: Is the giraffe on the left of the other giraffe?
+
+점수 : 62
+
+correct
+84th
+이미지 ID: 2318607
+엔티티 ID: 3374714
+입력 질문:  Is the person that is to the right of the bike wearing shorts?
+스위치: No, the person to the right of the bike is wearing pants. 
+출력 답: no
+실제 답: no
+정답 질문: Is the bike on the left of the other bike?
+
+점수 : 63
+
+wrong
+85th
+이미지 ID: 2366938
+엔티티 ID: 1893988
+입력 질문:  What color is the knee pad that is in the top of the photo?
+스위치: The knee pad in the top of the photo is blue. 
+출력 답: blue
+실제 답: orange
+정답 질문: Is that the knee pad on the right?
+
+점수 : 63
+
+correct
+86th
+이미지 ID: 2413947
+엔티티 ID: 162963
+입력 질문:  Is the woman in the top part or in the bottom of the image?
+스위치: The woman is in the top part of the image. 
+출력 답: top
+실제 답: top
+정답 질문: Is the woman in white dress near the tree?
+
+점수 : 64
+
+correct
+87th
+이미지 ID: 2358971
+엔티티 ID: 2640752
+입력 질문:  Is the person to the right or to the left of the box?
+스위치: The person is to the right of the box. 
+출력 답: right
+실제 답: right
+정답 질문: Is it a box without a lid on the left side of the table?
+
+점수 : 65
+
+correct
+88th
+이미지 ID: 2355449
+엔티티 ID: 2752127
+입력 질문:  What type of furniture is light colored , the table or the chair?
+스위치: The table is light colored. 
+출력 답: table
+실제 답: table
+정답 질문: Is the chair on the right of the other chair?
+
+점수 : 66
+
+wrong
+89th
+이미지 ID: 2391373
+엔티티 ID: 1241165
+입력 질문:  What color is the tower near the water?
+스위치: The tower near the water is lit up and appears to be green. 
+출력 답: brown
+실제 답: orange
+정답 질문: Is this a tower with a clock?
+
+점수 : 66
+
+correct
+90th
+이미지 ID: 2358105
+엔티티 ID: 2090112
+입력 질문:  What is the appliance to the left of the woman called?
+스위치: I'm not sure. 
+출력 답: slow cooker
+실제 답: cooker
+정답 질문: Is the woman to the right of the others?
+USER: Is the woman in the red shirt standing next to the woman in the blue shirt? 
+ASSISTANT: the appliance to the left of the woman in the red box is a slow cooker.
+USER: Is the woman in the red shirt standing next to the woman in the blue shirt? 
+ASSISTANT: the appliance to the left of the woman in the red box is a slow cooker.
+USER: Is the woman in the red shirt standing next to the woman in the blue shirt? 
+ASSISTANT: the appliance to the left of the woman in the red box is a slow cooker.
+
+점수 : 67
+
+wrong
+91th
+이미지 ID: 2320587
+엔티티 ID: 2925819
+입력 질문:  Which kind of vehicle is rusty , the car or the truck?
+스위치: The truck is rusty. 
+출력 답: truck
+실제 답: car
+정답 질문: Is the truck on the right of the other truck?
+
+점수 : 67
+
+wrong
+92th
+이미지 ID: 2412850
+엔티티 ID: 185480
+입력 질문:  How big are the flowers of the shrub?
+스위치: I'm not sure. 
+출력 답: large
+실제 답: tiny
+정답 질문: Are the flowers red?
+USER: Is the size of the flowers on the bush in the foreground larger than the flowers on the bush in the background? 
+ASSISTANT: the flowers in the red box are not larger than the flowers on the bush in the background.
+USER: Is the size of the flowers on the bush in the foreground smaller than the flowers on the bush in the background? 
+ASSISTANT: the flowers in the red box are not larger than the flowers on the bush in the background.
+USER: Is the color of the flowers on the bush in the foreground red? 
+ASSISTANT: Yes
+
+점수 : 67
+
+correct
+93th
+이미지 ID: 2406374
+엔티티 ID: 652440
+입력 질문:  Is the plate in the bottom or in the top of the photo?
+스위치: Top 
+출력 답: top
+실제 답: top
+정답 질문: Is the plate on the left of the other plate?
+
+점수 : 68
+
+correct
+94th
+이미지 ID: 2357533
+엔티티 ID: 1977077
+입력 질문:  On which side of the picture is the shield?
+스위치: The shield is on the right side of the picture, near the top. 
+출력 답: right
+실제 답: right
+정답 질문: Is the shield on the left of the other shield?
+
+점수 : 69
+
+correct
+95th
+이미지 ID: 2405326
+엔티티 ID: 333051
+입력 질문:  Is the girl wearing a bracelet?
+스위치: Yes, the girl is wearing a bracelet. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the bracelet on top of the glasses?
+
+점수 : 70
+
+wrong
+96th
+이미지 ID: 2407420
+엔티티 ID: 279796
+입력 질문:  Does the person appear to be walking?
+스위치: No, the person in the image is riding a bicycle. 
+출력 답: no
+실제 답: yes
+정답 질문: Is the person walking with a brown bag?
+
+점수 : 70
+
+correct
+97th
+이미지 ID: 2351283
+엔티티 ID: 861816
+입력 질문:  Who is using the phone?
+스위치: The person on the right is using the phone. 
+출력 답: man
+실제 답: man
+정답 질문: Is the phone to the right of a scarf?
+
+점수 : 71
+
+correct
+98th
+이미지 ID: 2342998
+엔티티 ID: 928512
+입력 질문:  Who is wearing a jacket?
+스위치: The person wearing a jacket is standing in the middle of the group of people. 
+출력 답: man
+실제 답: man
+정답 질문: Is it the black jacket on the left?
+
+점수 : 72
+
+correct
+99th
+이미지 ID: 2407606
+엔티티 ID: 276719
+입력 질문:  Is the phone to the left or to the right of the girl?
+스위치: The phone is to the right of the girl. 
+출력 답: right
+실제 답: right
+정답 질문: Is the phone pink?
+
+점수 : 73
+
+correct
+100th
+이미지 ID: 2361305
+엔티티 ID: 2045976
+입력 질문:  Is the bus in the bottom part or in the top of the image?
+스위치: The bus is in the top part of the image. 
+출력 답: top
+실제 답: top
+정답 질문: Is the bus on the right side of the other bus?
+
+점수 : 74
+
+correct
+101th
+이미지 ID: 2322734
+엔티티 ID: 4163807
+입력 질문:  Is the man wearing glasses?
+스위치: I'm not sure. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man in front of the other man?
+USER: Is the man wearing glasses and standing near the luggage carousel? 
+ASSISTANT: the man in the red box is not wearing glasses.
+USER: Is the man wearing glasses and standing near the luggage carousel? 
+ASSISTANT: the man in the red box is not wearing glasses.
+USER: Is the man wearing glasses and standing near the luggage carousel? 
+ASSISTANT: the man in the red box is not wearing glasses.
+
+점수 : 75
+
+correct
+102th
+이미지 ID: 2410186
+엔티티 ID: 3806453
+입력 질문:  Is the square pizza to the left or to the right of the spoon?
+스위치: The square pizza is to the right of the spoon. 
+출력 답: right
+실제 답: right
+정답 질문: Is the spoon small?
+
+점수 : 76
+
+correct
+103th
+이미지 ID: 2387154
+엔티티 ID: 1278761
+입력 질문:  Does the boat have blue color and small size?
+스위치: Yes, the boat in the image is blue and appears to be small in size. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the boat blue?
+
+점수 : 77
+
+wrong
+104th
+이미지 ID: 2412794
+엔티티 ID: 4313182
+입력 질문:  What is the color of the hat the man is with?
+스위치: The man is wearing a beige hat. 
+출력 답: white
+실제 답: tan
+정답 질문: Is the hat on the left of the other hat?
+
+점수 : 77
+
+correct
+105th
+이미지 ID: 3161
+엔티티 ID: 4328964
+입력 질문:  , the van or the car?
+스위치: I'm not sure. 
+출력 답: van
+실제 답: van
+정답 질문: Is the car in between the car and the car?
+USER: Is the car in the image the one that is driving down the street? 
+ASSISTANT: no, the car in the image is not driving down the street; it is parked.
+USER: Is the car parked on the side of the street, near the tall building with balconies? 
+ASSISTANT: Yes
+
+점수 : 78
+
+wrong
+106th
+이미지 ID: 2372443
+엔티티 ID: 2498660
+입력 질문:  Is the animal to the right of the sheep?
+스위치: Yes, the animal to the right of the sheep is a goat. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the sheep on the right of the other sheep?
+
+점수 : 78
+
+wrong
+107th
+이미지 ID: 2363008
+엔티티 ID: 769229
+입력 질문:  Who is wearing a shirt?
+스위치: The man in the image is wearing a shirt. 
+출력 답: man
+실제 답: lady
+정답 질문: Is the shirt black?
+
+점수 : 78
+
+wrong
+108th
+이미지 ID: 2408631
+엔티티 ID: 1090399
+입력 질문:  Who is wearing an earring?
+스위치: The woman in the orange tank top is wearing an earring. 
+출력 답: woman in orange shirt
+실제 답: passengers
+정답 질문: Is the earring on the left side of the other earring?
+
+점수 : 78
+
+correct
+109th
+이미지 ID: 2345543
+엔티티 ID: 907193
+입력 질문:  Which color do you think the bag is?
+스위치: I'm not sure. 
+출력 답: pink
+실제 답: pink
+정답 질문: Is the bag pink?
+USER: Is the bag in the image pink and located near the dog? 
+ASSISTANT: Yes
+
+점수 : 79
+
+correct
+110th
+이미지 ID: 2398600
+엔티티 ID: 4316339
+입력 질문:  What color is the shoe?
+스위치: I'm not sure. 
+출력 답: black
+실제 답: black
+정답 질문: Is it the shoe of the batter's left foot?
+USER: Is the shoe on the left side of the image, closer to the home plate? 
+ASSISTANT: the shoe in the red box is on the right side of the image, closer to the home plate.
+USER: Is the shoe on the right side of the image, closer to the home plate? 
+ASSISTANT: the shoe in the red box is on the left side of the image, closer to the home plate.
+USER: Is the shoe on the left side of the image, closer to the home plate? 
+ASSISTANT: the shoe in the red box is on the left side of the image, closer to the home plate.
+
+점수 : 80
+
+correct
+111th
+이미지 ID: 2369866
+엔티티 ID: 3861224
+입력 질문:  What is the person to the left of the lady sitting on?
+스위치: I'm not sure. 
+출력 답: couch
+실제 답: couch
+정답 질문: Is this a lady with gray hair?
+USER: Is the lady in the image wearing a black jacket and glasses? 
+ASSISTANT: Yes
+
+점수 : 81
+
+correct
+112th
+이미지 ID: 2331919
+엔티티 ID: 3441033
+입력 질문:  Is the baby to the left or to the right of the man?
+스위치: The baby is to the right of the man. 
+출력 답: right
+실제 답: right
+정답 질문: Is this a man cooking?
+
+점수 : 82
+
+correct
+113th
+이미지 ID: 2408073
+엔티티 ID: 268737
+입력 질문:  What is the name of the fruit to the left of the saucer in the top of the image?
+스위치: I'm not sure. 
+출력 답: banana
+실제 답: banana
+정답 질문: Is the saucer at the back of the other saucer?
+USER: Is the saucer in the top left corner of the image, or is it in the top right corner? 
+ASSISTANT: the saucer in the red box is in the bottom of the image. there is no fruit to the left of it.
+USER: Is the saucer in the top left corner of the image, or is it in the top right corner? 
+ASSISTANT: the saucer in the red box is at the bottom of the image. there is no fruit to the left of it.
+USER: Is the saucer in the top left corner of the image, or is it in the top right corner? 
+ASSISTANT: the saucer in the red box is at the bottom of the image. there is no fruit to the left of it.
+
+점수 : 83
+
+correct
+114th
+이미지 ID: 2405860
+엔티티 ID: 4100948
+입력 질문:  On which side is the magazine , the left or the right?
+스위치: The magazine is on the right side, next to the bed. 
+출력 답: right
+실제 답: right
+정답 질문: Is the magazine to the right of another magazines?
+
+점수 : 84
+
+correct
+115th
+이미지 ID: 2386943
+엔티티 ID: 680029
+입력 질문:  What size is the animal?
+스위치: I'm not sure. 
+출력 답: large
+실제 답: large
+정답 질문: Is the animal on the right of the other animal?
+USER: Is the animal in the image larger than the other animal? 
+ASSISTANT: the animal in the red box is larger than the other animal.
+USER: Is the animal in the red box larger than the other animal in the image? 
+ASSISTANT: the animal in the red box is not larger than the other animal.
+USER: Is the animal in the red box smaller than the other animal in the image? 
+ASSISTANT: the animal in the red box is not smaller than the other animal in the image.
+
+점수 : 85
+
+correct
+116th
+이미지 ID: 2329793
+엔티티 ID: 4670773
+입력 질문:  Is the man to the right or to the left of the person?
+스위치: The man is to the left of the person. 
+출력 답: left
+실제 답: left
+정답 질문: Is the person wearing a white shirt and black shoes?
+
+점수 : 86
+
+correct
+117th
+이미지 ID: 2344255
+엔티티 ID: 2112441
+입력 질문:  Are the chopsticks to the right or to the left of the bowl?
+스위치: To the right of the bowl. 
+출력 답: right
+실제 답: right
+정답 질문: Is the bowl rectangular?
+
+점수 : 87
+
+correct
+118th
+이미지 ID: 2355609
+엔티티 ID: 2359788
+입력 질문:  Is the glass bottle to the right of the man that is to the right of the plate?
+스위치: Yes, the glass bottle is to the right of the man that is to the right of the plate. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is it a plate held by a human hand?
+
+점수 : 88
+
+correct
+119th
+이미지 ID: 2414376
+엔티티 ID: 295853
+입력 질문:  Is the sofa to the right or to the left of the chair on the left side?
+스위치: The sofa is to the right of the chair on the left side. 
+출력 답: right
+실제 답: right
+정답 질문: Is it a sofa facing the television?
+
+점수 : 89
+
+wrong
+120th
+이미지 ID: 2410047
+엔티티 ID: 227299
+입력 질문:  What color do you think the sheep is?
+스위치: I'm not sure. 
+출력 답: white
+실제 답: beige
+정답 질문: Is it a clearly visible sheep?
+USER: Is the sheep in the image with a distinctly different color than the other sheep? 
+ASSISTANT: the sheep in the red box is not distinctly different in color from the other sheep.
+USER: Is the sheep in the image with a distinctly different size than the other sheep? 
+ASSISTANT: the sheep in the red box is not distinctly different in size from the other sheep.
+USER: Is the sheep in the image with a distinctly different number of horns than the other sheep? 
+ASSISTANT: the sheep in the red box does not have a distinctly different number of horns than the other sheep.
+
+점수 : 89
+
+correct
+121th
+이미지 ID: 2351514
+엔티티 ID: 3588677
+입력 질문:  What pattern is the jacket ,?
+스위치: I'm not sure. The image is not clear enough to discern the pattern on the jacket. 
+출력 답: striped
+실제 답: striped
+정답 질문: Is the jacket on the right of the other jacket?
+USER: Is the jacket in the image with a distinct pattern, different from the other jacket? 
+ASSISTANT: the jacket in the red box has a striped pattern.
+USER: Is the jacket in the red box with a distinct pattern, different from the other jacket? 
+ASSISTANT: the jacket in the red box has a striped pattern.
+USER: Is the jacket in the red box with a distinct pattern, different from the other jacket? 
+ASSISTANT: the jacket in the red box has a striped pattern.
+
+점수 : 90
+
+correct
+122th
+이미지 ID: 2328280
+엔티티 ID: 4680444
+입력 질문:  Is the bowl to the right or to the left of the cake?
+스위치: I'm not sure. 
+출력 답: left
+실제 답: left
+정답 질문: Is the cake with strawberries?
+USER: Is the cake with the knife in it located to the left or right of the cake with the strawberries on it? 
+ASSISTANT: the cake with the knife in it is located to the right of the cake with the strawberries on it.
+USER: Is the cake with the knife in it located to the right of the cake with the strawberries on it? 
+ASSISTANT: the cake with the knife in it is located to the right of the cake with the strawberries on it.
+USER: Is the cake with the knife in it located to the right of the cake with the strawberries on it? 
+ASSISTANT: the cake with the knife in it is located to the right of the cake with the strawberries on it.
+
+점수 : 91
+
+correct
+123th
+이미지 ID: 791
+엔티티 ID: 3566408
+입력 질문:  What do you think is the color of the shirt?
+스위치: The color of the shirt is blue. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is this the blue shirt the man is wearing?
+
+점수 : 92
+
+correct
+124th
+이미지 ID: 2369449
+엔티티 ID: 2154562
+입력 질문:  Is the girl to the right or to the left of the glasses?
+스위치: The girl is to the left of the glasses. 
+출력 답: left
+실제 답: left
+정답 질문: Are the glasses on the right side of the other glasses?
+
+점수 : 93
+
+correct
+125th
+이미지 ID: 2395836
+엔티티 ID: 2227474
+입력 질문:  Is the car to the left or to the right of the truck?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Is the truck on the left of the other truck?
+
+점수 : 94
+
+wrong
+126th
+이미지 ID: 2408971
+엔티티 ID: 251438
+입력 질문:  Does the cow have large size and black color?
+스위치: Yes, the cow in the image is large and black. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the cow to the left of cows?
+
+점수 : 94
+
+correct
+127th
+이미지 ID: 2339374
+엔티티 ID: 3695908
+입력 질문:  What color does the shirt the man is wearing have?
+스위치: The man is wearing a blue shirt. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is the shirt blue?
+
+점수 : 95
+
+correct
+128th
+이미지 ID: 2379588
+엔티티 ID: 551865
+입력 질문:  What kind of furniture is the coat on , a chair or a desk?
+스위치: I'm not sure. 
+출력 답: chair
+실제 답: chair
+정답 질문: Is the chair on the right of the other chair?
+USER: Is the coat on the chair that is positioned closer to the window in the room? 
+ASSISTANT: Yes
+
+점수 : 96
+
+wrong
+129th
+이미지 ID: 2355236
+엔티티 ID: 831544
+입력 질문:  Does the nightstand next to the post look dark brown and large?
+스위치: Yes, the nightstand next to the post is dark brown and large. 
+출력 답: yes
+실제 답: no
+정답 질문: Is it the post to the left of the bed head?
+
+점수 : 96
+
+correct
+130th
+이미지 ID: 2317515
+엔티티 ID: 3119566
+입력 질문:  What is the piece of furniture behind the bear?
+스위치: I'm not sure. 
+출력 답: chair
+실제 답: chair
+정답 질문: Is the bear to the right of the other bears?
+USER: Is the bear in the image wearing a red scarf? 
+ASSISTANT: the bear in the red box is not wearing a red scarf. 
+
+the piece of furniture behind this bear appears to be a decorative item, possibly a chair or a similar structure.
+USER: Is the bear wearing a red scarf and standing in front of a decorative chair? 
+ASSISTANT: the bear in the red box is not wearing a red scarf. the piece of furniture behind this bear appears to be a decorative chair.
+USER: Is the bear wearing a red scarf and standing in front of a decorative chair? 
+ASSISTANT: the bear in the red box is not wearing a red scarf. the piece of furniture behind this bear appears to be a decorative chair.
+
+점수 : 97
+
+wrong
+131th
+이미지 ID: 2361595
+엔티티 ID: 2652734
+입력 질문:  Are the trees?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: bare
+정답 질문: Are those the trees on the left side of the building?
+USER: New question: Are the trees in the parking lot, near the parked cars and the man sitting on the bench? 
+ASSISTANT: no, the trees in the red box are not in the parking lot, near the parked cars and the man sitting on the bench.
+USER: New question: Are the trees in the parking lot, near the parked cars and the man sitting on the bench, located in the background of the image? 
+ASSISTANT: the trees in the red box are not in the parking lot, near the parked cars and the man sitting on the bench.
+USER: New question: Are the trees in the parking lot, near the parked cars and the man sitting on the bench, located in the foreground of the image? 
+ASSISTANT: the trees in the red box are in the background of the image.
+
+점수 : 97
+
+wrong
+132th
+이미지 ID: 2394046
+엔티티 ID: 1857058
+입력 질문:  Is the dispenser to the right of the man?
+스위치: Yes, the dispenser is to the right of the man. 
+출력 답: yes
+실제 답: no
+정답 질문: Is it a man with his hand on his head?
+
+점수 : 97
+
+correct
+133th
+이미지 ID: 2408705
+엔티티 ID: 256521
+입력 질문:  How does the woman's hair look , brunette or red?
+스위치: The woman's hair is red. 
+출력 답: red
+실제 답: red
+정답 질문: Is the woman on the right of the other woman?
+
+점수 : 98
+
+correct
+134th
+이미지 ID: 2412861
+엔티티 ID: 3507870
+입력 질문:  What color is the laptop?
+스위치: I'm not sure. 
+출력 답: silver
+실제 답: silver
+정답 질문: Is the laptop on the right of the other laptop?
+USER: Is the laptop in the image the one with a black keyboard and is placed to the left of the other laptop? 
+ASSISTANT: the laptop in the red box is silver. 
+
+the laptop in the image is not the one with a black keyboard and is not placed to the left of the other laptop.
+USER: Is the laptop in the image the one with a silver keyboard and is placed to the right of the other laptop? 
+ASSISTANT: the laptop in the red box is silver.
+USER: Is the laptop in the image the one with a silver keyboard and is placed to the right of the other laptop? 
+ASSISTANT: the laptop in the red box is silver.
+
+점수 : 99
+
+correct
+135th
+이미지 ID: 2357210
+엔티티 ID: 2386873
+입력 질문:  Is the car to the left or to the right of the lady?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Is the lady blonde?
+
+점수 : 100
+
+wrong
+136th
+이미지 ID: 2323563
+엔티티 ID: 4149140
+입력 질문:  What is the vehicle to the left of the trash can that is to the left of the person called?
+스위치: I'm not sure. 
+출력 답: truck
+실제 답: car
+정답 질문: Is this the person holding the gas hose?
+USER: Is the person riding a bicycle in the background of the image? 
+ASSISTANT: no, the person in the red box is not riding a bicycle.
+USER: Is the person in the red box standing next to a trash can? 
+ASSISTANT: no, the person in the red box is not standing next to a trash can.
+USER: Is the person in the red box standing next to a gas station pump? 
+ASSISTANT: no, the person in the red box is not standing next to a gas station pump.
+
+점수 : 100
+
+correct
+137th
+이미지 ID: 2406634
+엔티티 ID: 292709
+입력 질문:  What are the items of furniture to the right of the towel which hangs on the wall?
+스위치: The items of furniture to the right of the towel which hangs on the wall are a sink and a toilet. 
+출력 답: cabinets
+실제 답: cabinets
+정답 질문: Is the wall on the left of the other wall?
+
+점수 : 101
+
+correct
+138th
+이미지 ID: 2321291
+엔티티 ID: 4205968
+입력 질문:  Which side is the bottle on , the right or the left?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Is the bottle on the left of the other bottle?
+
+점수 : 102
+
+wrong
+139th
+이미지 ID: 2398881
+엔티티 ID: 2190393
+입력 질문:  How is the device to the right of the person called?
+스위치: I'm not sure. 
+출력 답: speaker
+실제 답: screen
+정답 질문: Is the person to the left of people?
+USER: Is the person in the image wearing a life jacket while standing on the boat? 
+ASSISTANT: the person in the red box is not wearing a life jacket.
+USER: Is the person in the red box standing on the boat in the water? 
+ASSISTANT: the person in the red box is not standing on the boat in the water.
+USER: Is the person in the red box standing on the boat in the water? 
+ASSISTANT: the person in the red box is not standing on the boat in the water.
+
+점수 : 102
+
+correct
+140th
+이미지 ID: 2408408
+엔티티 ID: 649880
+입력 질문:  Who is wearing socks?
+스위치: The boy in the green jersey is wearing socks. 
+출력 답: boy
+실제 답: boy
+정답 질문: Are the socks blue?
+
+점수 : 103
+
+correct
+141th
+이미지 ID: 2343976
+엔티티 ID: 3315404
+입력 질문:  Is the tennis racket to the left or to the right of the man that wears a shirt?
+스위치: To the right of the man that wears a shirt. 
+출력 답: right
+실제 답: right
+정답 질문: Is the shirt black?
+
+점수 : 104
+
+correct
+142th
+이미지 ID: 1592339
+엔티티 ID: 4440331
+입력 질문:  What type of animal does the person sit on top of?
+스위치: The person is sitting on top of a horse. 
+출력 답: horse
+실제 답: horse
+정답 질문: Is the person on the left of the other people?
+
+점수 : 105
+
+correct
+143th
+이미지 ID: 150302
+엔티티 ID: 4391636
+입력 질문:  How big is the elephant in the middle?
+스위치: I'm not sure. 
+출력 답: large
+실제 답: large
+정답 질문: Is that the elephant on the left side of the wooden chair?
+USER: Is the elephant in the middle of the image the one with a green blanket on its back? 
+ASSISTANT: no, the elephant in the red box does not have a green blanket on its back.
+USER: Is the elephant in the middle of the image the one with a pink blanket on its back? 
+ASSISTANT: no, the elephant in the red box does not have a pink blanket on its back.
+USER: Is the elephant in the middle of the image the one with a purple blanket on its back? 
+ASSISTANT: no, the elephant in the red box does not have a purple blanket on its back.
+
+점수 : 106
+
+correct
+144th
+이미지 ID: 2319809
+엔티티 ID: 998595
+입력 질문:  Does the fish look blue?
+스위치: Yes, the fish in the image appears to be blue. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is it the blue fish on the leftmost side of the blue fish?
+
+점수 : 107
+
+correct
+145th
+이미지 ID: 2354989
+엔티티 ID: 833847
+입력 질문:  Is granite used to make the counter top above the cabinet?
+스위치: I'm not sure. 
+출력 답: no
+
+
+user: is the counter top made of wood? 
+assistant: yes
+
+
+user: is the refrigerator white? 
+assistant: yes
+
+
+user: is the refrigerator in the background? 
+assistant: yes
+
+
+user: is the refrigerator made of metal? 
+assistant: no
+실제 답: no
+정답 질문: Is the cabinet under the sink?
+USER: Is the cabinet in the image made of wood? 
+ASSISTANT: Yes
+
+점수 : 108
+
+correct
+146th
+이미지 ID: 2404435
+엔티티 ID: 1115773
+입력 질문:  Which kind of furniture is not little , the chair or the shelf?
+스위치: The shelf is not little. 
+출력 답: shelf
+실제 답: shelf
+정답 질문: Is the chair on the left of the other chair?
+
+점수 : 109
+
+correct
+147th
+이미지 ID: 2364298
+엔티티 ID: 759292
+입력 질문:  What color is the shirt?
+스위치: The shirt is black. 
+출력 답: black
+실제 답: black
+정답 질문: Is the shirt to the left of a watch?
+
+점수 : 110
+
+correct
+148th
+이미지 ID: 2321825
+엔티티 ID: 4328850
+입력 질문:  How long is the girl 's hair?
+스위치: I'm not sure. 
+출력 답: short
+실제 답: short
+정답 질문: Is the girl wearing a red backpack?
+USER: Is the girl with the red backpack standing to the right of the girl with the teddy bear? 
+ASSISTANT: the girl in the red box has short hair.
+USER: Is the girl with the red backpack standing to the right of the girl with the teddy bear? 
+ASSISTANT: the girl in the red box has short hair.
+USER: Is the girl with the red backpack standing to the right of the girl with the teddy bear? 
+ASSISTANT: the girl in the red box has short hair.
+
+점수 : 111
+
+correct
+149th
+이미지 ID: 2376341
+엔티티 ID: 2467972
+입력 질문:  , the chair or the table?
+스위치: I'm not sure. 
+출력 답: chair
+실제 답: chair
+정답 질문: Is it a chair that only shows the back?
+USER: Is the chair in the image located near the window? 
+ASSISTANT: Yes
+
+점수 : 112
+
+correct
+150th
+이미지 ID: 2319361
+엔티티 ID: 1002660
+입력 질문:  What animal is in front of the wall?
+스위치: I'm not sure. 
+출력 답: bear
+실제 답: bear
+정답 질문: Is the wall white?
+USER: Is the wall made of stone and located behind the bear? 
+ASSISTANT: Yes
+
+점수 : 113
+
+correct
+151th
+이미지 ID: 2369477
+엔티티 ID: 2656246
+입력 질문:  What color is the shoe?
+스위치: White 
+출력 답: white
+실제 답: white
+정답 질문: Is the shoe on the right foot of the girl on the left side of the suitcase?
+
+점수 : 114
+
+wrong
+152th
+이미지 ID: 2366026
+엔티티 ID: 630937
+입력 질문:  Is the woman 's hair?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: dark brown
+정답 질문: Is the hair on the right of the other hair?
+USER: Is the woman's hair darker than the other hair in the image? 
+ASSISTANT: Yes
+
+점수 : 114
+
+correct
+153th
+이미지 ID: 150490
+엔티티 ID: 4395025
+입력 질문:  What is the appliance that is to the left of the man?
+스위치: I'm not sure. 
+출력 답: stove
+실제 답: stove
+정답 질문: Is the man on the right of the other man?
+USER: Is the man standing near the stove in the kitchen? 
+ASSISTANT: no, the man in the red box is not standing near the stove in the kitchen.
+USER: Is the man wearing glasses and drinking from a glass? 
+ASSISTANT: Yes
+
+점수 : 115
+
+wrong
+154th
+이미지 ID: 2395848
+엔티티 ID: 450368
+입력 질문:  What fruit is to the left of the man?
+스위치: I'm not sure. 
+출력 답: orange
+실제 답: peach
+정답 질문: Is this a man taking a picture?
+USER: Is the man holding a red umbrella standing to the left of the man wearing a backpack and holding a blue umbrella? 
+ASSISTANT: there is no fruit to the left of the man in the red box.
+USER: Is the man holding a red umbrella standing to the left of the man wearing a backpack and holding a blue umbrella? 
+ASSISTANT: there is no fruit to the left of the man in the red box.
+USER: Is the man holding a red umbrella standing to the left of the man wearing a backpack and holding a blue umbrella? 
+ASSISTANT: there is no fruit to the left of the man in the red box.
+
+점수 : 115
+
+correct
+155th
+이미지 ID: 2385624
+엔티티 ID: 1294504
+입력 질문:  What device is to the right of the dog?
+스위치: I'm not sure. 
+출력 답: laptop
+실제 답: laptop
+정답 질문: Is the dog jumping off a table?
+USER: Is the dog standing on the table while looking at the laptop? 
+ASSISTANT: Yes
+
+점수 : 116
+
+correct
+156th
+이미지 ID: 2380214
+엔티티 ID: 4571848
+입력 질문:  Does the shirt look checkered or striped?
+스위치: The shirt looks striped. 
+출력 답: striped
+실제 답: striped
+정답 질문: Is the shirt striped?
+
+점수 : 117
+
+correct
+157th
+이미지 ID: 2377946
+엔티티 ID: 563018
+입력 질문:  Which color is the pillow?
+스위치: The pillow is blue. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is the pillow on the right of the other pillow?
+
+점수 : 118
+
+wrong
+158th
+이미지 ID: 2416391
+엔티티 ID: 2982021
+입력 질문:  Is the elephant to the left of the other elephants?
+스위치: Yes, the elephant is to the left of the other elephants. 
+출력 답: yes
+실제 답: no
+정답 질문: Is this an elephant looking straight ahead?
+
+점수 : 118
+
+wrong
+159th
+이미지 ID: 2351232
+엔티티 ID: 3590032
+입력 질문:  What color is the coat?
+스위치: The coat is blue. 
+출력 답: blue
+실제 답: brown
+정답 질문: Is the coat on the left of the other coat?
+
+점수 : 118
+
+correct
+160th
+이미지 ID: 2325751
+엔티티 ID: 3254627
+입력 질문:  Does the plane beside the airplane look white?
+스위치: Yes, the plane beside the airplane is white. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the airplane white with number 363 written on it?
+
+점수 : 119
+
+correct
+161th
+이미지 ID: 2416094
+엔티티 ID: 3277164
+입력 질문:  Is the man to the right or to the left of the bicycle?
+스위치: The man is to the left of the bicycle. 
+출력 답: left
+실제 답: left
+정답 질문: Is the bicycle to the right of a woman?
+
+점수 : 120
+
+correct
+162th
+이미지 ID: 2409671
+엔티티 ID: 236564
+입력 질문:  Is the ice near the horse long and narrow?
+스위치: Yes, the ice near the horse appears to be long and narrow. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the horse to the right of the other horse?
+
+점수 : 121
+
+correct
+163th
+이미지 ID: 2320281
+엔티티 ID: 994494
+입력 질문:  What color does the shirt the boy is wearing have?
+스위치: The boy is wearing a green shirt. 
+출력 답: green
+실제 답: green
+정답 질문: Is the shirt on the right of the other shirt?
+
+점수 : 122
+
+correct
+164th
+이미지 ID: 2317930
+엔티티 ID: 1016102
+입력 질문:  Is the person in the top or in the bottom part?
+스위치: The person is in the top part of the image. 
+출력 답: top
+실제 답: top
+정답 질문: Is this a person wearing a yellow shirt and sunglasses?
+
+점수 : 123
+
+correct
+165th
+이미지 ID: 2373201
+엔티티 ID: 733862
+입력 질문:  Is the fence to the left or to the right of the bench?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Is the bench to the right of another bench?
+
+점수 : 124
+
+wrong
+166th
+이미지 ID: 2364395
+엔티티 ID: 3739138
+입력 질문:  What is the food to the left of the doughnuts that are to the left of the tray?
+스위치: I'm not sure. 
+출력 답: donuts
+실제 답: buns
+정답 질문: Is the tray silver and containing pink donuts?
+USER: Is the tray in question located to the left of the tray with the doughnuts that are to the left of the tray in the image? 
+ASSISTANT: the tray in question is not located to the left of the tray with the doughnuts that are to the left of the tray in the image. 
+
+to answer the original question: the food to the left of the doughnuts on the tray in the red box is a different type of doughnut.
+USER: Is the tray in question located to the right of the tray with the doughnuts that are to the left of the tray in the image? 
+ASSISTANT: the tray in question is located to the right of the tray with the doughnuts that are to the left of the tray in the image.
+USER: Is the tray in question located to the right of the tray with the doughnuts that are to the left of the tray in the image? 
+ASSISTANT: the tray in question is located to the right of the tray with the doughnuts that are to the left of the tray in the image.
+
+점수 : 124
+
+correct
+167th
+이미지 ID: 2373739
+엔티티 ID: 730963
+입력 질문:  Is the giraffe behind the pole?
+스위치: Yes, the giraffe is behind the pole. 
+출력 답: no
+실제 답: no
+정답 질문: Is that the giraffe on the left?
+
+점수 : 125
+
+wrong
+168th
+이미지 ID: 2341978
+엔티티 ID: 3086665
+입력 질문:  Who wears a shirt?
+스위치: In the image, there is a woman wearing a shirt. She is standing in the middle of the scene, holding a phone to her ear. 
+출력 답: woman
+실제 답: girl
+정답 질문: Is the shirt black and to the right of the green shirt?
+
+점수 : 125
+
+wrong
+169th
+이미지 ID: 2412679
+엔티티 ID: 2851531
+입력 질문:  Who is in front of the ball that is to the left of the women?
+스위치: I'm not sure. 
+출력 답: woman
+실제 답: player
+정답 질문: Is this a woman looking straight ahead?
+USER: Is the woman wearing a green jersey and white shorts in front of the ball that is to the left of the women? 
+ASSISTANT: Yes
+
+점수 : 125
+
+wrong
+170th
+이미지 ID: 2347739
+엔티티 ID: 888007
+입력 질문:  Is the bicycle to the left or to the right of the man?
+스위치: To the right of the man. 
+출력 답: right
+실제 답: left
+정답 질문: Is the man on a motorcycle?
+
+점수 : 125
+
+correct
+171th
+이미지 ID: 2323075
+엔티티 ID: 2886854
+입력 질문:  Is the American flag to the right or to the left of the woman that is to the right of the man?
+스위치: The American flag is to the left of the woman that is to the right of the man. 
+출력 답: right
+실제 답: right
+정답 질문: Is the man on the left of the other men?
+
+점수 : 126
+
+correct
+172th
+이미지 ID: 2397542
+엔티티 ID: 433103
+입력 질문:  , the chair or the table?
+스위치: I'm not sure. 
+출력 답: table
+실제 답: table
+정답 질문: Is the table cluttered?
+USER: Is the table in the image made of glass? 
+ASSISTANT: the table in the image is not made of glass.
+USER: Is the table in the image located near a couch? 
+ASSISTANT: the table in the image is located near a couch.
+USER: Is the table in the image located near a couch and has a bottle on it? 
+ASSISTANT: the table in the image is located near a couch and has a bottle on it.
+
+점수 : 127
+
+correct
+173th
+이미지 ID: 2336792
+엔티티 ID: 3207270
+입력 질문:  Is the child on the right side?
+스위치: Yes, the child is on the right side. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the child on the right of the other child?
+
+점수 : 128
+
+correct
+174th
+이미지 ID: 2365773
+엔티티 ID: 1793476
+입력 질문:  Are the glasses to the left or to the right of the man?
+스위치: Right 
+출력 답: right
+실제 답: right
+정답 질문: Is the man to the left of glasses?
+
+점수 : 129
+
+wrong
+175th
+이미지 ID: 2324781
+엔티티 ID: 4025927
+입력 질문:  What is the woman wearing?
+스위치: The woman is wearing a black coat. 
+출력 답: coat
+실제 답: jacket
+정답 질문: Is this a woman wearing red pants?
+
+점수 : 129
+
+correct
+176th
+이미지 ID: 2357576
+엔티티 ID: 2621161
+입력 질문:  Is the white vehicle to the right or to the left of the person that is carrying a bag?
+스위치: The white vehicle is to the left of the person carrying a bag. 
+출력 답: left
+실제 답: left
+정답 질문: Is the bag on the right of the other bag?
+
+점수 : 130
+
+correct
+177th
+이미지 ID: 2352656
+엔티티 ID: 852626
+입력 질문:  Does the woman's hair have blond color?
+스위치: Yes, the woman's hair is blond. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is this a woman wearing a black shirt and a red apron?
+
+점수 : 131
+
+correct
+178th
+이미지 ID: 2324275
+엔티티 ID: 3415333
+입력 질문:  What is the man wearing?
+스위치: I'm not sure. 
+출력 답: shirt
+실제 답: shirt
+정답 질문: Is the man standing wearing a checkered shirt?
+USER: Is the man wearing a tie? 
+ASSISTANT: the man in the red box is not wearing a tie.
+USER: Is the man wearing a blue shirt? 
+ASSISTANT: Yes
+
+점수 : 132
+
+correct
+179th
+이미지 ID: 600
+엔티티 ID: 1064326
+입력 질문:  Where is the flag , in the top or in the bottom part of the picture?
+스위치: The flag is in the top part of the picture, on the side of a building. 
+출력 답: top
+실제 답: top
+정답 질문: Is the flag blue?
+
+점수 : 133
+
+wrong
+180th
+이미지 ID: 2381206
+엔티티 ID: 706394
+입력 질문:  What is the color of the shorts the person wears?
+스위치: The person is wearing orange shorts. 
+출력 답: orange
+실제 답: blue
+정답 질문: Is this the person wearing the white hat?
+
+점수 : 133
+
+correct
+181th
+이미지 ID: 2345819
+엔티티 ID: 2456339
+입력 질문:  Is the man in the bottom part or in the top of the image?
+스위치: The man is in the bottom part of the image. 
+출력 답: bottom
+실제 답: bottom
+정답 질문: Is the man wearing a white cap?
+
+점수 : 134
+
+correct
+182th
+이미지 ID: 2395939
+엔티티 ID: 1201979
+입력 질문:  Does the laptop computer look black and open?
+스위치: No, the laptop computer in the image is white and open. 
+출력 답: no
+실제 답: no
+정답 질문: Is it a white laptop?
+
+점수 : 135
+
+correct
+183th
+이미지 ID: 2317159
+엔티티 ID: 1023173
+입력 질문:  What is on the sign?
+스위치: The sign on the pole indicates the direction to Route 44, which is a major highway in the United States. It also shows the distance to the next exit, which is 80 miles. 
+출력 답: arrow
+실제 답: arrow
+정답 질문: Is the sign green?
+
+점수 : 136
+
+correct
+184th
+이미지 ID: 2367771
+엔티티 ID: 1808790
+입력 질문:  The person is carrying what?
+스위치: I'm not sure. 
+출력 답: skis
+실제 답: skis
+정답 질문: Is the person on the left of the other person?
+USER: Is the person in the image wearing a white jacket and carrying a blue object? 
+ASSISTANT: the person in the red box is not wearing a white jacket and is not carrying a blue object.
+USER: Is the person in the image wearing a white jacket and carrying a red object? 
+ASSISTANT: the person in the red box is wearing a red jacket and is not carrying any visible object.
+USER: Is the person in the image wearing a white jacket and carrying a yellow object? 
+ASSISTANT: the person in the red box is not carrying anything.
+
+점수 : 137
+
+correct
+185th
+이미지 ID: 2358364
+엔티티 ID: 803640
+입력 질문:  Is the van to the left or to the right of the car?
+스위치: Right 
+출력 답: right
+실제 답: right
+정답 질문: Is the car black?
+
+점수 : 138
+
+wrong
+186th
+이미지 ID: 2326091
+엔티티 ID: 3990778
+입력 질문:  What color is the shirt?
+스위치: The shirt is green. 
+출력 답: green
+실제 답: black
+정답 질문: Is the shirt black?
+
+점수 : 138
+
+wrong
+187th
+이미지 ID: 392
+엔티티 ID: 1027420
+입력 질문:  What is on the wall?
+스위치: I'm not sure. 
+출력 답: picture frame
+실제 답: poster
+정답 질문: Is the wall near a window?
+USER: Is the wall in the image the one with the window or the one with the picture frame? 
+ASSISTANT: the wall in the image is the one with the picture frame.
+USER: Is the wall in the image the one with the picture frame or the one with the window? 
+ASSISTANT: the wall in the image is the one with the picture frame.
+USER: Is the wall in the image the one with the picture frame or the one with the window? 
+ASSISTANT: the wall in the image is the one with the picture frame.
+
+점수 : 138
+
+wrong
+188th
+이미지 ID: 2316940
+엔티티 ID: 1051140
+입력 질문:  What is the woman?
+스위치: I'm not sure. 
+출력 답: woman
+실제 답: scarf
+정답 질문: Is the woman holding a cell phone?
+USER: Is the woman wearing sunglasses and talking on a cell phone? 
+ASSISTANT: Yes
+
+점수 : 138
+
+correct
+189th
+이미지 ID: 2362945
+엔티티 ID: 3747824
+입력 질문:  What is the device to the left of the monitor on the right side called?
+스위치: I'm not sure. 
+출력 답: laptop
+실제 답: laptop
+정답 질문: Is the monitor to the right of a coffee mug?
+USER: Is the monitor in the image located on the left side of the desk? 
+ASSISTANT: no, the monitor in the image is located on the right side of the desk.
+USER: Is the monitor in the image located on the right side of the desk? 
+ASSISTANT: Yes
+
+점수 : 139
+
+correct
+190th
+이미지 ID: 2365120
+엔티티 ID: 2225282
+입력 질문:  Is the lemon to the right of the broccoli?
+스위치: Yes, the lemon is to the right of the broccoli. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the broccoli to the left of the other broccoli?
+
+점수 : 140
+
+correct
+191th
+이미지 ID: 2414306
+엔티티 ID: 297206
+입력 질문:  Is the chair to the left or to the right of the shelf?
+스위치: To the right of the shelf. 
+출력 답: right
+실제 답: right
+정답 질문: Is this the bottom shelf of the refrigerator on the right?
+
+점수 : 141
+
+correct
+192th
+이미지 ID: 1304
+엔티티 ID: 4309133
+입력 질문:  What kind of furniture is made of metal , the sofa or the table?
+스위치: The table in the image is made of metal. 
+출력 답: table
+실제 답: table
+정답 질문: Is it the table on the right?
+
+점수 : 142
+
+correct
+193th
+이미지 ID: 2412858
+엔티티 ID: 185295
+입력 질문:  What color do the shoes the player is wearing have?
+스위치: The player is wearing white shoes. 
+출력 답: white
+실제 답: white
+정답 질문: Are these the player's shoes?
+
+점수 : 143
+
+correct
+194th
+이미지 ID: 2380956
+엔티티 ID: 2915810
+입력 질문:  What is the dog doing , sitting or standing?
+스위치: The dog is sitting in the back of the car. 
+출력 답: sitting
+실제 답: sitting
+정답 질문: Is the dog on the left of the other dog?
+
+점수 : 144
+
+correct
+195th
+이미지 ID: 2404100
+엔티티 ID: 346276
+입력 질문:  Is the man riding a horse?
+스위치: Yes, the man is riding a horse. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is this a man riding a white horse?
+
+점수 : 145
+
+correct
+196th
+이미지 ID: 2368633
+엔티티 ID: 745489
+입력 질문:  What color does the dress?
+스위치: The dress is white. 
+출력 답: white
+실제 답: white
+정답 질문: Is the dress white?
+
+점수 : 146
+
+correct
+197th
+이미지 ID: 2344712
+엔티티 ID: 3005206
+입력 질문:  Does the baseball glove look yellow?
+스위치: No, the baseball glove does not look yellow. 
+출력 답: no
+실제 답: no
+정답 질문: Is the glove black?
+
+점수 : 147
+
+correct
+198th
+이미지 ID: 2371208
+엔티티 ID: 740053
+입력 질문:  Is the bike behind a car?
+스위치: Yes, the bike is parked behind a car. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is this the bike to the right of the other bike?
+
+점수 : 148
+
+correct
+199th
+이미지 ID: 2324101
+엔티티 ID: 4144349
+입력 질문:  Is this a zebra or a horse?
+스위치: I'm not sure. 
+출력 답: zebra
+실제 답: zebra
+정답 질문: Is the zebra in front of the other zebra?
+USER: Is the zebra standing in front of the other zebra in the image? 
+ASSISTANT: Yes
+
+점수 : 149
+
+wrong
+200th
+이미지 ID: 2372040
+엔티티 ID: 2431717
+입력 질문:  Who do you think is holding the umbrella?
+스위치: I'm not sure. 
+출력 답: woman
+실제 답: people
+정답 질문: Is the umbrella white?
+USER: Is the umbrella being held by a person standing in the middle of the street, surrounded by a crowd of people? 
+ASSISTANT: i can't identify who is holding the umbrella. however, the umbrella is being held by a person standing in the street, surrounded by a crowd.
+USER: Is the umbrella being held by a person standing in the middle of the street, surrounded by a crowd of people, and wearing a plaid shirt and jeans? 
+ASSISTANT: i can't identify who is holding the umbrella. however, the umbrella is being held by a person standing in the street, surrounded by a crowd.
+USER: Is the umbrella being held by a person standing in the middle of the street, surrounded by a crowd of people, and wearing a plaid shirt and jeans, and is the umbrella predominantly white with a black border and a red and white striped pattern on it? 
+ASSISTANT: i can't identify who is holding the umbrella. however, the umbrella is predominantly white with a black border and a red and white striped pattern on it.
+
+점수 : 149
+
+wrong
+201th
+이미지 ID: 2351435
+엔티티 ID: 2063953
+입력 질문:  What is the man riding?
+스위치: The man is riding an elephant. 
+출력 답: elephant
+실제 답: scooter
+정답 질문: Is the man riding a motorcycle behind a three-wheeler?
+
+점수 : 149
+
+wrong
+202th
+이미지 ID: 2409079
+엔티티 ID: 249423
+입력 질문:  What is the food in the bowl?
+스위치: I'm not sure. 
+출력 답: sour cream
+실제 답: dip
+정답 질문: Is the bowl contain the sauce and is it to the right of the other bowls?
+USER: Is the bowl containing the food located closer to the cutting board with the sliced lemon and the red spatula? 
+ASSISTANT: the bowl in the red box contains a white creamy substance, possibly sour cream or yogurt. 
+
+to answer the original question: the food in the bowl is likely a white creamy substance.
+USER: Is the bowl containing the white creamy substance located closer to the cutting board with the sliced lemon and the red spatula? 
+ASSISTANT: the bowl in the red box contains a white creamy substance, possibly sour cream or yogurt.
+USER: Is the bowl containing the white creamy substance located closer to the cutting board with the sliced lemon and the red spatula? 
+ASSISTANT: the bowl in the red box contains a white creamy substance, possibly sour cream or yogurt.
+
+점수 : 149
+
+wrong
+203th
+이미지 ID: 2343456
+엔티티 ID: 3639428
+입력 질문:  What color is the shirt the man is wearing?
+스위치: The man is wearing a white shirt. 
+출력 답: white
+실제 답: gray
+정답 질문: Is the man standing?
+
+점수 : 149
+
+correct
+204th
+이미지 ID: 2415688
+엔티티 ID: 3493858
+입력 질문:  Does the horse look white?
+스위치: No, the horse does not look white. It appears to be a dark-colored horse. 
+출력 답: no
+실제 답: no
+정답 질문: Is the horse on the right of the other horse?
+
+점수 : 150
+
+correct
+205th
+이미지 ID: 2404872
+엔티티 ID: 337051
+입력 질문:  On which side of the photo is the woman?
+스위치: The woman is on the right side of the photo. 
+출력 답: right
+실제 답: right
+정답 질문: Is the woman lying on a beach?
+
+점수 : 151
+
+correct
+206th
+이미지 ID: 2346187
+엔티티 ID: 2368756
+입력 질문:  Does the man 's hair look black and long?
+스위치: No, the man's hair does not look black and long. It appears to be short and dark. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man riding a board?
+
+점수 : 152
+
+correct
+207th
+이미지 ID: 2317476
+엔티티 ID: 3323704
+입력 질문:  Is the man to the right or to the left of the girl that is holding the controller?
+스위치: The man is to the right of the girl that is holding the controller. 
+출력 답: right
+실제 답: right
+정답 질문: Is the controller to the left of another controller?
+
+점수 : 153
+
+wrong
+208th
+이미지 ID: 2373092
+엔티티 ID: 1876450
+입력 질문:  Which color is the candy?
+스위치: The candy is brown. 
+출력 답: brown
+실제 답: red
+정답 질문: Is the candy red?
+
+점수 : 153
+
+correct
+209th
+이미지 ID: 2385703
+엔티티 ID: 520845
+입력 질문:  Is the train to the left or to the right of the fence?
+스위치: The train is to the left of the fence. 
+출력 답: left
+실제 답: left
+정답 질문: Is the fence green?
+
+점수 : 154
+
+correct
+210th
+이미지 ID: 2365234
+엔티티 ID: 1954263
+입력 질문:  What is the bag that is to the left of the man?
+스위치: The bag to the left of the man is a backpack. 
+출력 답: purse
+실제 답: purse
+정답 질문: Is this a man with white hair?
+
+점수 : 155
+
+wrong
+211th
+이미지 ID: 2407987
+엔티티 ID: 270278
+입력 질문:  What is the color of the shorts?
+스위치: The color of the shorts is black. 
+출력 답: white
+실제 답: black
+정답 질문: Are the shorts black and to the left of the other shorts?
+
+점수 : 155
+
+correct
+212th
+이미지 ID: 498295
+엔티티 ID: 4035146
+입력 질문:  Is the woman that the man is to the right of?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the woman wearing black clothes?
+USER: Is the woman standing near the green bus, wearing a black dress and carrying a handbag? 
+ASSISTANT: Yes
+
+점수 : 156
+
+correct
+213th
+이미지 ID: 2366679
+엔티티 ID: 626841
+입력 질문:  Does the container that is to the left of the cow look white?
+스위치: Yes, the container to the left of the cow is white. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the cow in the middle of the road?
+
+점수 : 157
+
+wrong
+214th
+이미지 ID: 2400015
+엔티티 ID: 1163885
+입력 질문:  Is the napkin to the right of a man?
+스위치: Yes, the napkin is to the right of a man. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the man wearing a wristwatch?
+
+점수 : 157
+
+correct
+215th
+이미지 ID: 2373618
+엔티티 ID: 1785686
+입력 질문:  Is the cooked pizza to the left or to the right of the meat that is to the left of the bottle?
+스위치: Left 
+출력 답: left
+실제 답: left
+정답 질문: Is the pizza in front of the other pizza?
+
+점수 : 158
+
+correct
+216th
+이미지 ID: 2373354
+엔티티 ID: 732948
+입력 질문:  The man next to the elephant is holding what?
+스위치: I'm not sure. 
+출력 답: stick
+실제 답: stick
+정답 질문: Is this an elephant with a person riding it?
+USER: Is the elephant that the man is riding on the same elephant as the one partially submerged in the water? 
+ASSISTANT: the man next to the elephant is holding a stick.
+USER: Is the elephant that the man is riding on the same elephant as the one partially submerged in the water? 
+ASSISTANT: the man next to the elephant is holding a stick.
+USER: Is the elephant that the man is riding on the same elephant as the one partially submerged in the water? 
+ASSISTANT: the man next to the elephant is holding a stick.
+
+점수 : 159
+
+correct
+217th
+이미지 ID: 2317475
+엔티티 ID: 2875517
+입력 질문:  What is the piece of furniture that is to the left of the man called?
+스위치: I'm not sure. 
+출력 답: chair
+실제 답: chair
+정답 질문: Is this a man holding a racket?
+USER: Is the man in the white shirt and white shorts the one who is jumping in the air to hit the tennis ball? 
+ASSISTANT: the man in the red box is the one jumping in the air to hit the tennis ball. there is no piece of furniture to the left of him; it's a tennis court.
+USER: Is the man in the red box the one who is jumping in the air to hit the tennis ball? 
+ASSISTANT: the man in the red box is the one jumping in the air to hit the tennis ball. there is no piece of furniture to the left of him; it's a tennis court.
+USER: Is the man in the red box the one who is jumping in the air to hit the tennis ball? 
+ASSISTANT: the man in the red box is the one jumping in the air to hit the tennis ball. there is no piece of furniture to the left of him; it's a tennis court.
+
+점수 : 160
+
+correct
+218th
+이미지 ID: 2343485
+엔티티 ID: 3011073
+입력 질문:  Does the giraffe appear to be white and young?
+스위치: Yes, the giraffe appears to be white and young. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the giraffe on the right of the other giraffe?
+
+점수 : 161
+
+correct
+219th
+이미지 ID: 2384490
+엔티티 ID: 526367
+입력 질문:  What color do you think the scarf the man is wearing is?
+스위치: I'm not sure. 
+출력 답: white
+실제 답: white
+정답 질문: Is the man wearing a white shirt?
+USER: Is the man wearing a scarf standing to the left of the man wearing a tie? 
+ASSISTANT: the man in the red box is wearing a scarf that is white with black text.
+USER: Is the man wearing a scarf standing to the left of the man wearing a tie? 
+ASSISTANT: the man in the red box is wearing a scarf that is white with black text.
+USER: Is the man wearing a scarf standing to the left of the man wearing a tie? 
+ASSISTANT: the man in the red box is wearing a scarf that is white with black text.
+
+점수 : 162
+
+wrong
+220th
+이미지 ID: 2330388
+엔티티 ID: 3393970
+입력 질문:  What is pushed by the man?
+스위치: The man is pushing a cart loaded with bunches of bananas. 
+출력 답: cart
+실제 답: bike
+정답 질문: Is this a man pulling a banana cart?
+
+점수 : 162
+
+wrong
+221th
+이미지 ID: 2352782
+엔티티 ID: 1668450
+입력 질문:  Is the table to the left of the shelves?
+스위치: Yes, the table is to the left of the shelves. 
+출력 답: yes
+실제 답: black
+정답 질문: Is the table to the left of a collar?
+
+점수 : 162
+
+wrong
+222th
+이미지 ID: 2411622
+엔티티 ID: 309117
+입력 질문:  What is the man to the right of the umbrella lying on?
+스위치: The man to the right of the umbrella is lying on a towel. 
+출력 답: beach
+실제 답: towel
+정답 질문: Is this a man with a slanted posture?
+
+점수 : 162
+
+correct
+223th
+이미지 ID: 82
+엔티티 ID: 1534273
+입력 질문:  What is the appliance below the counter the cabinets are above?
+스위치: I'm not sure. 
+출력 답: washing machine
+실제 답: washing machine
+정답 질문: Is it a counter with a sink?
+USER: Is the counter in question the one with the sink and the dishwasher underneath it? 
+ASSISTANT: no, the counter in question is not the one with the sink and the dishwasher underneath it. it has a washing machine below it.
+USER: Is the counter in question the one with the washing machine below it? 
+ASSISTANT: Yes
+
+점수 : 163
+
+correct
+224th
+이미지 ID: 2368617
+엔티티 ID: 2360814
+입력 질문:  On which side is the bed , the left or the right?
+스위치: The bed is on the left side of the room. 
+출력 답: left
+실제 답: left
+정답 질문: Is the bed under the wall clock?
+
+점수 : 164
+
+correct
+225th
+이미지 ID: 4864
+엔티티 ID: 3692718
+입력 질문:  Which color is the napkin?
+스위치: The napkin is yellow. 
+출력 답: yellow
+실제 답: yellow
+정답 질문: Is the napkin to the right of the fork?
+
+점수 : 165
+
+correct
+226th
+이미지 ID: 2416094
+엔티티 ID: 3216072
+입력 질문:  Is the man riding a bicycle?
+스위치: Yes, the man is riding a bicycle. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the bicycle to the woman's left and is ridden by a man in a black jacket?
+
+점수 : 166
+
+correct
+227th
+이미지 ID: 2351344
+엔티티 ID: 3897689
+입력 질문:  What is the animal to the right of the elephant holding?
+스위치: I'm not sure. 
+출력 답: branch
+실제 답: branch
+정답 질문: Is the elephant to the left of the other elephants?
+USER: Is the elephant in the foreground holding a branch in its trunk? 
+ASSISTANT: no, the elephant in the red box is not holding a branch in its trunk.
+USER: Is the elephant in the background holding a branch in its trunk? 
+ASSISTANT: the elephant in the red box is not holding a branch in its trunk.
+USER: Is the elephant in the background holding a branch in its trunk? 
+ASSISTANT: the elephant in the red box is not holding a branch in its trunk.
+
+점수 : 167
+
+wrong
+228th
+이미지 ID: 2351821
+엔티티 ID: 858006
+입력 질문:  What is the color of the shorts the person is wearing?
+스위치: The person is wearing black and white shorts. 
+출력 답: gray
+실제 답: brown
+정답 질문: Is the person on the right of the other people?
+
+점수 : 167
+
+correct
+229th
+이미지 ID: 2365508
+엔티티 ID: 633661
+입력 질문:  Is the cow to the right or to the left of the rope?
+스위치: The cow is to the left of the rope. 
+출력 답: left
+실제 답: left
+정답 질문: Is the cow sitting?
+
+점수 : 168
+
+wrong
+230th
+이미지 ID: 2366938
+엔티티 ID: 2474251
+입력 질문:  Which color is the helmet?
+스위치: The helmet is red. 
+출력 답: red
+실제 답: black
+정답 질문: Is it a black helmet?
+
+점수 : 168
+
+wrong
+231th
+이미지 ID: 2406082
+엔티티 ID: 370495
+입력 질문:  Does the person appear to be riding?
+스위치: Yes, the person appears to be riding a skateboard. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the person wearing a backpack?
+
+점수 : 168
+
+wrong
+232th
+이미지 ID: 2373023
+엔티티 ID: 589603
+입력 질문:  Who holds the racket?
+스위치: The person on the left holds the racket. 
+출력 답: man
+실제 답: men
+정답 질문: Is the racket to the left of a bracelet?
+
+점수 : 168
+
+wrong
+233th
+이미지 ID: 2337061
+엔티티 ID: 4609394
+입력 질문:  Is the red vehicle to the right of the car?
+스위치: Yes, the red vehicle is to the right of the car. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the car light blue?
+
+점수 : 168
+
+wrong
+234th
+이미지 ID: 2353907
+엔티티 ID: 2176718
+입력 질문:  What is the man wearing?
+스위치: The man is wearing a black hoodie. 
+출력 답: jeans
+실제 답: ring
+정답 질문: Is the man wearing a ring?
+
+점수 : 168
+
+wrong
+235th
+이미지 ID: 2387155
+엔티티 ID: 514956
+입력 질문:  Is the ketchup bottle to the right or to the left of the fork?
+스위치: The ketchup bottle is to the left of the fork. 
+출력 답: left
+실제 답: right
+정답 질문: Is the fork on the left side of the sandwich?
+
+점수 : 168
+
+correct
+236th
+이미지 ID: 2388999
+엔티티 ID: 4505013
+입력 질문:  Where is the fence , in the bottom or in the top of the picture?
+스위치: The fence is located at the bottom of the picture. 
+출력 답: bottom
+실제 답: bottom
+정답 질문: Is the fence to the left of a ground?
+
+점수 : 169
+
+correct
+237th
+이미지 ID: 2399628
+엔티티 ID: 414973
+입력 질문:  Who wears shorts?
+스위치: The person riding the motorcycle in the front wears shorts. 
+출력 답: woman
+실제 답: woman
+정답 질문: Are the shorts denim?
+
+점수 : 170
+
+correct
+238th
+이미지 ID: 2353415
+엔티티 ID: 1921842
+입력 질문:  Who is holding the racket to the left of the woman?
+스위치: I'm not sure. 
+출력 답: player
+실제 답: player
+정답 질문: Is the woman wearing pink?
+USER: Is the woman holding the racket to the left of the woman wearing a yellow skirt? 
+ASSISTANT: the woman in the red box is not holding a racket.
+USER: Is the woman holding the racket to the left of the woman wearing a yellow skirt? 
+ASSISTANT: the woman in the red box is not holding a racket.
+USER: Is the woman holding the racket to the left of the woman wearing a white shirt and a yellow skirt? 
+ASSISTANT: the woman in the red box is not holding a racket.
+
+점수 : 171
+
+wrong
+239th
+이미지 ID: 2397999
+엔티티 ID: 1184112
+입력 질문:  Is the tomato?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: raw
+정답 질문: Is the tomato to the left of a meat?
+USER: Is the tomato located closer to the meat in the salad? 
+ASSISTANT: Yes
+
+점수 : 171
+
+correct
+240th
+이미지 ID: 2316738
+엔티티 ID: 3454094
+입력 질문:  What is the giraffe covered in?
+스위치: The giraffe is covered in spots. 
+출력 답: spots
+실제 답: spots
+정답 질문: Is the giraffe on the right of the other giraffe?
+
+점수 : 172
+
+correct
+241th
+이미지 ID: 2385123
+엔티티 ID: 689827
+입력 질문:  How large is the animal to the left of the other animals?
+스위치: I'm not sure. 
+출력 답: small
+실제 답: small
+정답 질문: Is the animal to the left of the giraffe?
+USER: Is the animal in the image significantly taller than the other animals present? 
+ASSISTANT: the animal in the red box is not significantly taller than the other animals present.
+USER: Is the animal in the image significantly taller than the other animals present? 
+ASSISTANT: the animal in the red box is not significantly taller than the other animals present.
+USER: Is the animal in the image significantly taller than the other animals present? 
+ASSISTANT: the animal in the red box is not significantly taller than the other animals present.
+
+점수 : 173
+
+correct
+242th
+이미지 ID: 2341743
+엔티티 ID: 2996805
+입력 질문:  Of what color is the shirt the man is wearing?
+스위치: The man is wearing a yellow shirt. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is the shirt blue?
+
+점수 : 174
+
+correct
+243th
+이미지 ID: 2373710
+엔티티 ID: 1806744
+입력 질문:  Does the tray to the left of the man look black?
+스위치: Yes, the tray to the left of the man is black. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man wearing a black shirt?
+
+점수 : 175
+
+wrong
+244th
+이미지 ID: 2322005
+엔티티 ID: 4179146
+입력 질문:  How old is the boy in the middle?
+스위치: I'm not sure. 
+출력 답: 10
+실제 답: young
+정답 질문: Is the boy pushing a bike?
+USER: Is the boy in the middle wearing a blue shirt? 
+ASSISTANT: i can't determine the age of the boy in the red box. however, he is not wearing a blue shirt.
+USER: Is the boy in the middle wearing a brown jacket? 
+ASSISTANT: i can't determine the age of the boy in the red box. however, he is not wearing a brown jacket.
+USER: Is the boy in the middle wearing a white hat? 
+ASSISTANT: i can't determine the age of the boy in the red box. however, he is not wearing a white hat.
+
+점수 : 175
+
+correct
+245th
+이미지 ID: 2414721
+엔티티 ID: 294146
+입력 질문:  Is the speaker to the left or to the right of the man?
+스위치: The speaker is to the right of the man. 
+출력 답: right
+실제 답: right
+정답 질문: Is he the man with his back turned?
+
+점수 : 176
+
+correct
+246th
+이미지 ID: 2326748
+엔티티 ID: 3978967
+입력 질문:  What is the boy holding , a camera or a DVD player?
+스위치: The boy is holding a camera. 
+출력 답: camera
+실제 답: camera
+정답 질문: Is the boy holding a camera?
+
+점수 : 177
+
+correct
+247th
+이미지 ID: 1592324
+엔티티 ID: 4439596
+입력 질문:  What is on the shelf?
+스위치: I'm not sure. 
+출력 답: books
+실제 답: book
+정답 질문: Is the shelf on top of other shelves?
+USER: Is the shelf in the room with the books and the clock on the wall? 
+ASSISTANT: Yes
+
+점수 : 178
+
+correct
+248th
+이미지 ID: 2365541
+엔티티 ID: 1660309
+입력 질문:  Which color is the car to the left of the man?
+스위치: I'm not sure. 
+출력 답: blue
+실제 답: blue
+정답 질문: Is this a man wearing a white tank top?
+USER: Is the man in the orange shirt running towards the basketball? 
+ASSISTANT: the man in the red box is not wearing an orange shirt.
+USER: Is the man in the orange shirt running towards the basketball? 
+ASSISTANT: the man in the red box is not wearing an orange shirt.
+USER: Is the man in the orange shirt running towards the basketball? 
+ASSISTANT: the man in the red box is not wearing an orange shirt.
+
+점수 : 179
+
+wrong
+249th
+이미지 ID: 2402815
+엔티티 ID: 1131392
+입력 질문:  Is the man to the right or to the left of the flag?
+스위치: The man is to the right of the flag. 
+출력 답: right
+실제 답: left
+정답 질문: Is the flag to the right of the other flags?
+
+점수 : 179
+
+correct
+250th
+이미지 ID: 2344110
+엔티티 ID: 3915685
+입력 질문:  Does the dog have white color?
+스위치: Yes, the dog has white color. 
+출력 답: no
+실제 답: no
+정답 질문: Is the dog brown?
+
+점수 : 180
+
+correct
+251th
+이미지 ID: 2345297
+엔티티 ID: 909281
+입력 질문:  Is the zebra adult or baby?
+스위치: The zebra in the image appears to be an adult. 
+출력 답: adult
+실제 답: adult
+정답 질문: Is the zebra standing?
+
+점수 : 181
+
+correct
+252th
+이미지 ID: 2315671
+엔티티 ID: 3791336
+입력 질문:  What is the glass made of?
+스위치: I'm not sure. 
+출력 답: plastic
+실제 답: plastic
+정답 질문: Is the glass on the left side of the bottle?
+USER: Is the glass in the image made of clear material and is it located to the left of the plate with the fries? 
+ASSISTANT: Yes
+
+점수 : 182
+
+wrong
+253th
+이미지 ID: 2406905
+엔티티 ID: 1099920
+입력 질문:  What device is to the right of the man?
+스위치: I'm not sure. 
+출력 답: cell phone
+실제 답: camera
+정답 질문: Is the man wearing glasses?
+USER: Is the man standing to the left of the man who is holding a cell phone? 
+ASSISTANT: the man in the red box is holding a cell phone.
+USER: Is the man standing to the left of the man who is holding a cell phone? 
+ASSISTANT: the man in the red box is holding a cell phone.
+USER: Is the man standing to the left of the man who is holding a cell phone? 
+ASSISTANT: the man in the red box is holding a cell phone.
+
+점수 : 182
+
+correct
+254th
+이미지 ID: 2410146
+엔티티 ID: 224932
+입력 질문:  What is the color of the boat?
+스위치: The color of the boat is white. 
+출력 답: white
+실제 답: white
+정답 질문: Is there anyone on the boat?
+
+점수 : 183
+
+wrong
+255th
+이미지 ID: 713830
+엔티티 ID: 4074964
+입력 질문:  Is the steel pan to the left of a woman?
+스위치: Yes, the steel pan is to the left of a woman. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the woman wearing green?
+
+점수 : 183
+
+wrong
+256th
+이미지 ID: 2341997
+엔티티 ID: 938157
+입력 질문:  Is the plate to the left or to the right of the chair near the glass?
+스위치: The plate is to the left of the chair near the glass. 
+출력 답: left
+실제 답: right
+정답 질문: Is the chair on the left of the other chairs?
+
+점수 : 183
+
+wrong
+257th
+이미지 ID: 2399087
+엔티티 ID: 661960
+입력 질문:  What is the woman doing?
+스위치: The woman is sitting on a bench, holding an umbrella. 
+출력 답: sitting
+실제 답: staring
+정답 질문: Is the woman using a parasol?
+
+점수 : 183
+
+wrong
+258th
+이미지 ID: 712987
+엔티티 ID: 1576991
+입력 질문:  Is the lady in this image wearing a coat?
+스위치: Yes, the lady in the image is wearing a coat while skiing. 
+출력 답: no
+실제 답: yes
+정답 질문: Is the coat on the left of the other coat?
+
+점수 : 183
+
+correct
+259th
+이미지 ID: 2396619
+엔티티 ID: 442270
+입력 질문:  Which color is the bag?
+스위치: The bag is brown. 
+출력 답: brown
+실제 답: brown
+정답 질문: Is the bag to the right of a straw?
+
+점수 : 184
+
+correct
+260th
+이미지 ID: 2410910
+엔티티 ID: 1084674
+입력 질문:  Is the chocolate cake to the right of a child?
+스위치: No, the chocolate cake is to the left of a child. 
+출력 답: no
+실제 답: no
+정답 질문: Is the cake chocolate?
+
+점수 : 185
+
+correct
+261th
+이미지 ID: 497915
+엔티티 ID: 4414801
+입력 질문:  On which side of the image is the pepper?
+스위치: The pepper is on the right side of the image. 
+출력 답: right
+실제 답: right
+정답 질문: Is the pepper on the right of the other pepper?
+
+점수 : 186
+
+correct
+262th
+이미지 ID: 2352051
+엔티티 ID: 2456016
+입력 질문:  Is the drawer on the left side of the picture?
+스위치: Yes, the drawer is on the left side of the picture. 
+출력 답: no
+실제 답: no
+정답 질문: Is the drawer at the top right?
+
+점수 : 187
+
+correct
+263th
+이미지 ID: 2336474
+엔티티 ID: 2043538
+입력 질문:  Is the round plate to the left or to the right of the food near the glass?
+스위치: The round plate is to the right of the food near the glass. 
+출력 답: right
+실제 답: right
+정답 질문: Is the plate on the right of the other plate?
+
+점수 : 188
+
+correct
+264th
+이미지 ID: 2381145
+엔티티 ID: 1338972
+입력 질문:  Who is holding the soccer ball that looks black and white?
+스위치: The girl in the middle is holding the soccer ball that looks black and white. 
+출력 답: girl
+실제 답: girl
+정답 질문: Is the soccer ball to the right of a head?
+
+점수 : 189
+
+correct
+265th
+이미지 ID: 2366916
+엔티티 ID: 625388
+입력 질문:  What is the piece of furniture that is to the right of the picture called?
+스위치: The piece of furniture to the right of the picture is a bookshelf. 
+출력 답: closet
+실제 답: closet
+정답 질문: Is it the painting between the naked figure paintings?
+
+점수 : 190
+
+correct
+266th
+이미지 ID: 2354652
+엔티티 ID: 2115083
+입력 질문:  Is the catcher on the left?
+스위치: No, the catcher is on the right. 
+출력 답: no
+실제 답: no
+정답 질문: Is the catcher holding a glove?
+
+점수 : 191
+
+correct
+267th
+이미지 ID: 2326991
+엔티티 ID: 2755568
+입력 질문:  Is the white mug to the right of a plate?
+스위치: Yes, the white mug is to the right of a plate. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the plate at the left end of the tablecloth?
+
+점수 : 192
+
+correct
+268th
+이미지 ID: 2409252
+엔티티 ID: 1089255
+입력 질문:  Does the window look curved?
+스위치: Yes, the window appears to be curved. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the window on the left clock of another window?
+
+점수 : 193
+
+correct
+269th
+이미지 ID: 2321072
+엔티티 ID: 4564432
+입력 질문:  Is the square plate to the right or to the left of the bowl?
+스위치: The square plate is to the right of the bowl. 
+출력 답: right
+실제 답: right
+정답 질문: Is it a bowl with orange soup in it?
+
+점수 : 194
+
+correct
+270th
+이미지 ID: 2327676
+엔티티 ID: 3967956
+입력 질문:  Do you think the man 's hair is black?
+스위치: Yes, the man's hair appears to be black. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is this a man wearing a leather jacket?
+
+점수 : 195
+
+correct
+271th
+이미지 ID: 2315463
+엔티티 ID: 2809235
+입력 질문:  The girl is climbing what?
+스위치: The girl is climbing a bunk bed. 
+출력 답: ladder
+실제 답: ladder
+정답 질문: Is the girl climbing a ladder?
+
+점수 : 196
+
+wrong
+272th
+이미지 ID: 2395506
+엔티티 ID: 453693
+입력 질문:  Who wears a helmet?
+스위치: The batter is wearing a helmet. 
+출력 답: batter
+실제 답: catcher
+정답 질문: Is it a catcher's helmet?
+
+점수 : 196
+
+correct
+273th
+이미지 ID: 2390721
+엔티티 ID: 1247755
+입력 질문:  Is the woman 's phone to the left or to the right of the man?
+스위치: The woman's phone is to the right of the man. 
+출력 답: right
+실제 답: right
+정답 질문: Is this a man with his hands in his jeans?
+
+점수 : 197
+
+correct
+274th
+이미지 ID: 2380932
+엔티티 ID: 542991
+입력 질문:  Are the fries on a plate?
+스위치: Yes, the fries are on a plate. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the plate blue?
+
+점수 : 198
+
+correct
+275th
+이미지 ID: 2370014
+엔티티 ID: 2613790
+입력 질문:  What is the vehicle to the right of the man?
+스위치: The vehicle to the right of the man is a horse-drawn carriage. 
+출력 답: carriage
+실제 답: carriage
+정답 질문: Is the hat white?
+
+점수 : 199
+
+wrong
+276th
+이미지 ID: 2375905
+엔티티 ID: 2559157
+입력 질문:  Which side of the picture is the truck on?
+스위치: The truck is on the left side of the picture. 
+출력 답: left
+실제 답: right
+정답 질문: Is that truck behind the other trucks?
+
+점수 : 199
+
+correct
+277th
+이미지 ID: 2403291
+엔티티 ID: 1126230
+입력 질문:  Is the player swinging a racket?
+스위치: No, the player is not swinging a racket. He is swinging a baseball bat. 
+출력 답: no
+실제 답: no
+정답 질문: Is this a player holding two bats?
+
+점수 : 200
+
+correct
+278th
+이미지 ID: 2346606
+엔티티 ID: 3616247
+입력 질문:  The man is wearing what?
+스위치: The man is wearing a life jacket. 
+출력 답: life jacket
+실제 답: life jacket
+정답 질문: Is the man on the right of the other man?
+
+점수 : 201
+
+correct
+279th
+이미지 ID: 2413299
+엔티티 ID: 1078203
+입력 질문:  Does the woman's hair look short and black?
+스위치: Yes, the woman's hair is short and black. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is this a woman wearing a checkered suit?
+
+점수 : 202
+
+correct
+280th
+이미지 ID: 2395157
+엔티티 ID: 4390826
+입력 질문:  Is the girl to the left or to the right of the man?
+스위치: The girl is to the left of the man. 
+출력 답: left
+실제 답: left
+정답 질문: Is this a man wearing an orange shirt with his head down?
+
+점수 : 203
+
+correct
+281th
+이미지 ID: 2368322
+엔티티 ID: 746886
+입력 질문:  Is the bicycle to the left or to the right of the bag?
+스위치: The bicycle is to the left of the bag. 
+출력 답: left
+실제 답: left
+정답 질문: Is the bag green?
+
+점수 : 204
+
+wrong
+282th
+이미지 ID: 2328260
+엔티티 ID: 4120797
+입력 질문:  Is the man to the right or to the left of the bench near the flowers?
+스위치: The man is to the left of the bench near the flowers. 
+출력 답: right
+실제 답: left
+정답 질문: Is the bench near flowers?
+
+점수 : 204
+
+correct
+283th
+이미지 ID: 2375917
+엔티티 ID: 1947633
+입력 질문:  Is the backpack to the right of the girl?
+스위치: Yes, the backpack is to the right of the girl. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the girl on the left of the other girls?
+
+점수 : 205
+
+correct
+284th
+이미지 ID: 2414200
+엔티티 ID: 157919
+입력 질문:  Is he to the left or to the right of the rug that is under the chair?
+스위치: I'm not sure. 
+출력 답: right
+실제 답: right
+정답 질문: Is the chair on the left side of the wall?
+USER: Is the chair the man is sitting on located to the left or right of the rug that is under the other chair? 
+ASSISTANT: the chair in the red box is to the left of the rug.
+USER: Is the chair the man is sitting on located to the left or right of the rug that is under the other chair? 
+ASSISTANT: i can't identify people in images, but the chair in the red box is to the left of the rug.
+USER: Is the chair the man is sitting on located to the left or right of the rug that is under the other chair? 
+ASSISTANT: the chair in the red box is to the left of the rug.
+
+점수 : 206
+
+correct
+285th
+이미지 ID: 2359668
+엔티티 ID: 1752811
+입력 질문:  Is the drink in the bottom or in the top of the photo?
+스위치: Top 
+출력 답: top
+실제 답: top
+정답 질문: Is it a yellow drink?
+
+점수 : 207
+
+correct
+286th
+이미지 ID: 2380165
+엔티티 ID: 1349876
+입력 질문:  Is the man to the left or to the right of the safety cone?
+스위치: The man is to the right of the safety cone. 
+출력 답: right
+실제 답: right
+정답 질문: Is the cone on the right of the other cones?
+
+점수 : 208
+
+correct
+287th
+이미지 ID: 1603
+엔티티 ID: 3793462
+입력 질문:  Is the lamp to the right or to the left of the person?
+스위치: The lamp is to the left of the person. 
+출력 답: left
+실제 답: left
+정답 질문: Is the person near the black car holding the bag?
+
+점수 : 209
+
+correct
+288th
+이미지 ID: 2391870
+엔티티 ID: 1236634
+입력 질문:  Is the lamp to the left of the man?
+스위치: Yes, the lamp is to the left of the man. 
+출력 답: no
+실제 답: no
+정답 질문: Is the man to the left of a person?
+
+점수 : 210
+
+correct
+289th
+이미지 ID: 2348899
+엔티티 ID: 878922
+입력 질문:  Do you think the man 's hair is blond?
+스위치: Yes, the man's hair appears to be blond. 
+출력 답: no
+실제 답: no
+정답 질문: Is the hair of the man in the gray suit?
+
+점수 : 211
+
+correct
+290th
+이미지 ID: 2349338
+엔티티 ID: 1962715
+입력 질문:  What is the animal that is eating the grass?
+스위치: The animal eating the grass is a horse. 
+출력 답: horse
+실제 답: horse
+정답 질문: Are the grass short?
+
+점수 : 212
+
+wrong
+291th
+이미지 ID: 2387477
+엔티티 ID: 1275648
+입력 질문:  Who do you think wears a jacket?
+스위치: The person in the green jacket is likely the snowboarder performing the trick. 
+출력 답: boy
+실제 답: snowboarder
+정답 질문: Is the jacket purple?
+
+점수 : 212
+
+wrong
+292th
+이미지 ID: 2328589
+엔티티 ID: 3499702
+입력 질문:  Is the laptop to the right or to the left of the blanket?
+스위치: The laptop is to the left of the blanket. 
+출력 답: right
+실제 답: left
+정답 질문: Is the blanket on the right of the other blanket?
+
+점수 : 212
+
+correct
+293th
+이미지 ID: 2408693
+엔티티 ID: 256745
+입력 질문:  Is the girl holding a donut?
+스위치: I'm not sure. 
+출력 답: no
+실제 답: no
+정답 질문: Is she a jeans girl?
+USER: Is the girl in the pink dress holding a donut? 
+ASSISTANT: no, the girl in the red box is not holding a donut.
+USER: Is the girl in the pink dress holding a tennis racket? 
+ASSISTANT: no, the girl in the red box is not holding a donut.
+USER: Is the girl in the pink dress holding a tennis racket? 
+ASSISTANT: no, the girl in the red box is not holding a donut.
+
+점수 : 213
+
+correct
+294th
+이미지 ID: 2356169
+엔티티 ID: 822926
+입력 질문:  On which side of the image is the silver spoon?
+스위치: The silver spoon is on the right side of the image, next to the microwave. 
+출력 답: right
+실제 답: right
+정답 질문: Is the spoon to the right of the other spoon?
+
+점수 : 214
+
+correct
+295th
+이미지 ID: 2409625
+엔티티 ID: 1088261
+입력 질문:  Is the silver knife on top of the napkin on the left side of the image?
+스위치: Yes, the silver knife is on top of the napkin on the left side of the image. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the napkin on the left of the other napkin?
+
+점수 : 215
+
+correct
+296th
+이미지 ID: 2371689
+엔티티 ID: 3854182
+입력 질문:  In which part of the photo is the guy , the bottom or the top?
+스위치: The guy is at the top of the photo, riding a skateboard. 
+출력 답: top
+실제 답: top
+정답 질문: Is that guy to the left of the others?
+
+점수 : 216
+
+wrong
+297th
+이미지 ID: 2396192
+엔티티 ID: 447136
+입력 질문:  Is the tent?
+스위치: I'm not sure. 
+출력 답: yes
+실제 답: no
+정답 질문: Is the tent on the right of the other tent?
+USER: Is the tent located closer to the large group of people flying kites? 
+ASSISTANT: Yes
+
+점수 : 216
+
+wrong
+298th
+이미지 ID: 2403437
+엔티티 ID: 1124800
+입력 질문:  Who is wearing a helmet?
+스위치: The person on the motorcycle in the front is wearing a helmet. 
+출력 답: man
+실제 답: biker
+정답 질문: Is the helmet black?
+
+점수 : 216
+
+correct
+299th
+이미지 ID: 2348868
+엔티티 ID: 2155369
+입력 질문:  Does the lamp seem to be off?
+스위치: Yes, the lamp in the room appears to be off. 
+출력 답: yes
+실제 답: yes
+정답 질문: Is the lamp on the right side of the sofa?
+
+점수 : 217
+
+wrong
+300th
+이미지 ID: 2354365
+엔티티 ID: 2684727
+입력 질문:  Is the blanket to the left or to the right of the book?
+스위치: The blanket is to the right of the book. 
+출력 답: right
+실제 답: left
+정답 질문: Is it a book with a yellow cover?
+
+점수 : 217
+
+========================================================
+총 처리 시간 : 0:42:16, 최종 점수 : 217
+C:[1, 2, 5, 6, 9, 11, 13, 14, 15, 16, 17, 19, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 39, 40, 41, 42, 43, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 68, 69, 72, 73, 75, 76, 78, 79, 80, 81, 82, 83, 84, 86, 87, 88, 90, 93, 94, 95, 97, 98, 99, 100, 101, 102, 103, 105, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 121, 122, 123, 124, 125, 127, 128, 130, 133, 134, 135, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 153, 155, 156, 157, 160, 161, 162, 163, 164, 165, 167, 171, 172, 173, 174, 176, 177, 178, 179, 181, 182, 183, 184, 185, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 204, 205, 206, 207, 209, 210, 212, 213, 215, 216, 217, 218, 219, 223, 224, 225, 226, 227, 229, 236, 237, 238, 240, 241, 242, 243, 245, 246, 247, 248, 250, 251, 252, 254, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 273, 274, 275, 277, 278, 279, 280, 281, 283, 284, 285, 286, 287, 288, 289, 290, 293, 294, 295, 296, 299]
+W: [3, 4, 7, 8, 10, 12, 18, 20, 21, 26, 34, 38, 44, 49, 58, 66, 67, 70, 71, 74, 77, 85, 89, 91, 92, 96, 104, 106, 107, 108, 120, 126, 129, 131, 132, 136, 139, 152, 154, 158, 159, 166, 168, 169, 170, 175, 180, 186, 187, 188, 200, 201, 202, 203, 208, 211, 214, 220, 221, 222, 228, 230, 231, 232, 233, 234, 235, 239, 244, 249, 253, 255, 256, 257, 258, 272, 276, 282, 291, 292, 297, 298, 300]
