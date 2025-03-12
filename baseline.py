@@ -13,13 +13,12 @@ import pyarrow.parquet as pq
 prompt=""
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-with open('/workspace/GQA/train_sceneGraphs.json', 'r', encoding='utf-8') as file :
+with open('train_sceneGraphs.json', 'r', encoding='utf-8') as file :
     sceneGraphs = json.load(file)
 
 from datasets import load_from_disk
-dataset = load_from_disk('/workspace/GQA/lba_test')
-image_dir = "/workspace/GQA/ambiguous_images"
-boxed_img_dir = "/workspace/GQA/300_boxes"
+dataset = load_from_disk('lba_test')
+image_dir = "image dir path
 
 df = dataset
 
@@ -53,27 +52,31 @@ def QA(image_id, ambiguous_question, ambiguous_entity, entity_id, ambiguous_ques
 
     # 1번 질문
     text1 = f"""[INST] <image>
-
-USER: If you are uncertain, if there is ambiguity, or if you cannot determine the correct answer, you must respond only with "I'm not sure." Do not guess. {ambiguous_question}
+USER: {ambiguous_question}
 ASSISTANT: [/INST]"""
     prompt = text1
     image_path = os.path.join(image_dir, f"{image_id}.jpg")
-    image = Image.open(image_path).convert("RGB")
-    # 프로세서 입력값 생성 (이미지를 PIL 이미지 객체가 아닌 텐서로 변환)
-    inputs = processor(images=[image], text=text1, return_tensors="pt").to(device)
-    image.save('img.jpg')
-    # 모델 출력 생성
-    generated_ids = model.generate(**inputs, max_new_tokens=80, pad_token_id=tokenizer.eos_token_id)
-    generated_text = processor.decode(generated_ids[0], skip_special_tokens=True)
-    start=generated_text.find("[/INST]")
-    generated_text = generated_text[start+8:]
+    try:
+        # 이미지 로드 및 RGB로 변환
+        image = Image.open(image_path).convert("RGB")
+        # 프로세서 입력값 생성 (이미지를 PIL 이미지 객체가 아닌 텐서로 변환)
+        inputs = processor(images=[image], text=text1, return_tensors="pt").to(device)
+        image.save('img.jpg')
+        # 모델 출력 생성
+        generated_ids = model.generate(**inputs, max_new_tokens=80, pad_token_id=tokenizer.eos_token_id)
+        generated_text = processor.decode(generated_ids[0], skip_special_tokens=True)
+        start=generated_text.find("[/INST]")
+        generated_text = generated_text[start+8:]
+        return generated_text, text1, ambiguous_question_answer
 
-    return generated_text, text1, ambiguous_question_answer
+    except Exception as e:
+        print(f"이미지 {image_path} 처리 중 오류 발생: {e}")
+        return ""
 
 import time
 import datetime
 total_start_time = time.time()
-output_file = '/workspace/VQA_AQ25/outputs/vqa_baseline_confi.txt'
+output_file = 'baseline.txt'
 correct_li=[]
 wrong_li=[]
 print("테스트 시작")
@@ -82,7 +85,7 @@ import shutil
 with open(output_file,'w', encoding='utf-8') as f :
     f.write(f"prompt: {prompt}\n")
     f.write("테스트 시작")
-    for i in range(300):
+    for i in range(1000):
         image_id = df[i]['image_id']
         ambiguous_question = df[i]['ambiguous_question']
         ambiguous_entity = df[i]['ambiguous_entity']
